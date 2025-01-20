@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-        <meta name="description" content="Vanegas Guzman Inc. - Professional legal services in Montreal specializing in family law, immigration, and criminal defense.">
-        <title>Vanegas Guzman Inc. | Montreal Legal Services</title>
-    
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="description"
+        content="Vanegas Guzman Inc. - Professional legal services in Montreal specializing in family law, immigration, and criminal defense.">
+    <title>Vanegas Guzman Inc. | Montreal Legal Services</title>
+
     <!-- Preconnect to external domains -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,31 +16,43 @@
     <!-- Preload critical resources -->
     <link rel="preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css">
     <link rel="preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap">
+    <link rel="preload" as="style"
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap">
 
     <!-- Actual resource loading -->
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
 
     <!-- Defer non-critical JavaScript -->
-    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>    
-    
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap');
 
         /* Enhanced color palette */
         :root {
-            --primary-dark: #1a1a2e;      /* Deep Navy - Primary */
-            --secondary-dark: #16213e;    /* Dark Blue - Secondary */
-            --text-light: #f3f4f6;        /* Cool Gray - Text */
-            --text-muted: #9ca3af;        /* Medium Gray - Muted Text */
-            --background-dark: #0f172a;    /* Slate Dark - Background */
+            --primary-dark: #1a1a2e;
+            /* Deep Navy - Primary */
+            --secondary-dark: #16213e;
+            /* Dark Blue - Secondary */
+            --text-light: #f3f4f6;
+            /* Cool Gray - Text */
+            --text-muted: #9ca3af;
+            /* Medium Gray - Muted Text */
+            --background-dark: #0f172a;
+            /* Slate Dark - Background */
             --background-gradient: linear-gradient(135deg, #0f172a, #1e293b);
-            --card-bg: #1e293b;           /* Darker Slate - Card Background */
-            --input-bg: #1e293b;          /* Darker Slate - Input Background */
-            --hover-bg: #2d3748;          /* Slightly Lighter Hover State */        }
+            --card-bg: #1e293b;
+            /* Darker Slate - Card Background */
+            --input-bg: #1e293b;
+            /* Darker Slate - Input Background */
+            --hover-bg: #2d3748;
+            /* Slightly Lighter Hover State */
+        }
 
         body {
             font-family: 'Inter', sans-serif;
@@ -49,7 +63,12 @@
             line-height: 1.6;
         }
 
-        h1, h2, h3, h4, h5, h6 {
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
             font-family: 'Playfair Display', serif;
             letter-spacing: -0.02em;
             line-height: 1.3;
@@ -72,6 +91,7 @@
             font-weight: 500;
             letter-spacing: 0.01em;
         }
+
         nav {
             background: var(--primary-dark) !important;
             border-bottom: 1px solid rgba(255, 255, 255, 0.1);
@@ -86,8 +106,8 @@
             font-weight: 700;
         }
 
-         /* Header Styles */
-         h2.gradient-text, 
+        /* Header Styles */
+        h2.gradient-text,
         h3.gradient-text {
             color: var(--text-light) !important;
         }
@@ -98,10 +118,9 @@
 
         /* Hero section */
         .hero-section {
-            background: linear-gradient(135deg, 
-                rgba(11, 19, 43, 0.92), 
-                rgba(28, 37, 65, 0.95)
-            );
+            background: linear-gradient(135deg,
+                    rgba(11, 19, 43, 0.92),
+                    rgba(28, 37, 65, 0.95));
             position: relative;
             z-index: 1;
         }
@@ -158,17 +177,17 @@
             overflow: visible;
         }
 
-         /* About section */
-         #about {
+        /* About section */
+        #about {
             background: var(--secondary-dark);
         }
-        
+
         #about p {
             color: var(--text-light);
         }
 
-         /* Contact Form */
-         #contact {
+        /* Contact Form */
+        #contact {
             color: var(--text-light);
         }
 
@@ -195,10 +214,10 @@
             box-shadow: 0 0 0 2px rgba(253, 184, 19, 0.2);
         }
 
-         /* Form labels */
-         label {
+        /* Form labels */
+        label {
             color: var(--text-light);
-         }
+        }
 
         /* Button */
         .modern-button {
@@ -235,7 +254,7 @@
         /* Contact section */
         #contact {
             background: var(--primary-dark);
-        }  
+        }
 
         /*  gradient text */
         .gradient-text {
@@ -247,7 +266,7 @@
             z-index: 1;
             color: var(--text-light);
         }
-        
+
         /* Desktop Language Toggle */
         #languageToggle {
             color: var(--text-light) !important;
@@ -293,7 +312,7 @@
         #mobileLangDropdown button:hover {
             background: var(--hover-bg);
         }
-        
+
         .text-gray-800 {
             color: var(--text-light) !important;
         }
@@ -317,22 +336,22 @@
         }
 
         /* Mobile navigation styles */
-            .mobile-menu {
-        display: none;
-        position: fixed;
-        top: var(--header-height);
-        right: 0;
-        width: 100%;
-        height: calc(100vh - var(--header-height));
-        background: var(--primary-dark);
-        padding: 2rem;
-        z-index: 999;
-        transform: translateX(100%);
-        transition: transform 0.3s ease-in-out;
-        overflow-y: auto;
-        -webkit-overflow-scrolling: touch;
-    }
-      
+        .mobile-menu {
+            display: none;
+            position: fixed;
+            top: var(--header-height);
+            right: 0;
+            width: 100%;
+            height: calc(100vh - var(--header-height));
+            background: var(--primary-dark);
+            padding: 2rem;
+            z-index: 999;
+            transform: translateX(100%);
+            transition: transform 0.3s ease-in-out;
+            overflow-y: auto;
+            -webkit-overflow-scrolling: touch;
+        }
+
 
         .mobile-menu.active {
             transform: translateX(0);
@@ -342,7 +361,7 @@
         /* Mobile menu button */
         #menuButton {
             display: none;
-            position: relative; 
+            position: relative;
             width: 40px;
             height: 40px;
             padding: 8px;
@@ -359,38 +378,49 @@
                 justify-content: center;
             }
         }
-        
-             .mobile-menu .mobile-nav {
-                display: flex;
-                flex-direction: column;
-            }
 
-            #mobileLangToggle {
-                display: flex;
-                align-items: center;
-                min-height: 44px;
-            }
+        .mobile-menu .mobile-nav {
+            display: flex;
+            flex-direction: column;
+        }
 
-            #mobileLangDropdown {
-                width: 100%;
-                margin-top: 0.5rem;
-            }
+        #mobileLangToggle {
+            display: flex;
+            align-items: center;
+            min-height: 44px;
+        }
 
-            #mobileLangDropdown button {
-                width: 100%;
-                min-height: 44px;
-                text-align: left;
-                padding: 0.75rem 1rem;
-            }
-        
+        #mobileLangDropdown {
+            width: 100%;
+            margin-top: 0.5rem;
+        }
+
+        #mobileLangDropdown button {
+            width: 100%;
+            min-height: 44px;
+            text-align: left;
+            padding: 0.75rem 1rem;
+        }
+
 
         /* Mobile-optimized typography */
         @media (max-width: 768px) {
-            h1 { font-size: 2.5rem !important; }
-            h2 { font-size: 2rem !important; }
-            h3 { font-size: 1.75rem !important; }
-            p { font-size: 1rem !important; }
-            
+            h1 {
+                font-size: 2.5rem !important;
+            }
+
+            h2 {
+                font-size: 2rem !important;
+            }
+
+            h3 {
+                font-size: 1.75rem !important;
+            }
+
+            p {
+                font-size: 1rem !important;
+            }
+
             .hero-section h1 {
                 font-size: 2.5rem !important;
                 line-height: 1.2;
@@ -400,8 +430,9 @@
 
         /* Mobile-optimized form elements */
         @media (max-width: 768px) {
-            .form-input, 
-            select.form-input, 
+
+            .form-input,
+            select.form-input,
             textarea.form-input {
                 font-size: 16px;
                 padding: 12px;
@@ -454,11 +485,12 @@
         }
 
         /* Enhanced focus states */
-        a:focus, button:focus {
+        a:focus,
+        button:focus {
             outline: 2px solid var(--accent-gold);
             outline-offset: 2px;
         }
-        
+
         @media (max-width: 768px) {
             .social-links {
                 flex-direction: column;
@@ -470,17 +502,17 @@
             .social-links a {
                 justify-content: center;
                 width: 100%;
-                max-width: 300px; 
+                max-width: 300px;
                 text-align: center;
             }
 
             .social-links a i {
                 margin-right: 1rem;
-                width: 24px; 
+                width: 24px;
                 text-align: center;
             }
-            
-            footer .container > div {
+
+            footer .container>div {
                 display: flex;
                 flex-direction: column;
                 align-items: center;
@@ -495,12 +527,14 @@
 
         @media (max-width: 480px) {
             .mobile-menu {
-                width: 100%; /* Full width for smaller devices */
+                width: 100%;
+                /* Full width for smaller devices */
             }
 
             /* Adjust your company name size */
             .gradient-text {
-                font-size: 1.25rem !important; /* Smaller font for the logo */
+                font-size: 1.25rem !important;
+                /* Smaller font for the logo */
             }
 
             /* Adjust padding for smaller screens */
@@ -516,7 +550,7 @@
                 font-size: 2rem !important;
                 padding: 0 0.5rem;
             }
-            
+
             .hero-section p {
                 font-size: 1rem !important;
             }
@@ -527,7 +561,7 @@
                 font-size: 1rem;
             }
         }
-        
+
         @media (max-width: 480px) {
             .service-card {
                 padding: 1.25rem;
@@ -547,7 +581,9 @@
                 gap: 0.75rem;
             }
         }
+
         @media (max-width: 480px) {
+
             /* Form inputs */
             .form-input {
                 padding: 0.75rem;
@@ -565,7 +601,7 @@
             }
 
             /* Adjust spacing */
-            .space-y-8 > * + * {
+            .space-y-8>*+* {
                 margin-top: 1.5rem;
             }
         }
@@ -587,6 +623,7 @@
                 font-size: 0.875rem;
             }
         }
+
         @media (max-width: 480px) {
             #mobileLangToggle {
                 padding: 0.5rem 1rem;
@@ -597,6 +634,7 @@
                 font-size: 0.875rem;
             }
         }
+
         @media (max-width: 480px) {
             section {
                 padding-top: 3rem;
@@ -612,501 +650,484 @@
 
 <body class="font-sans bg-gradient-to-b from-background-dark to-secondary-dark">
     <!-- Navigation with Mobile Menu -->
-    <nav class="bg-white bg-opacity-95 backdrop-filter backdrop-blur-lg fixed w-full z-10 shadow-sm" role="navigation" aria-label="Main navigation">
+    <nav class="bg-white bg-opacity-95 backdrop-filter backdrop-blur-lg fixed z-10 shadow-sm" role="navigation"
+        aria-label="Main navigation" style="width: 100vw">
         <div class="container mx-auto px-6 py-4">
             <div class="flex items-center justify-between">
                 <div class="text-xl font-bold gradient-text">Vanegas Guzman Inc.</div>
-                
+
                 <!-- Mobile Menu Button -->
-                <button 
-                    class="md:hidden focus:outline-none fixed top-4 right-6 z-50 flex items-center justify-center w-10 h-10 bg-transparent" 
-                    aria-label="Toggle menu" 
-                    id="menuButton" 
-                    aria-expanded="false" 
-                    aria-controls="mobileMenu"
-                >
+                <button type="button"
+                    class="md:hidden focus:outline-none flex items-center justify-center bg-transparent"
+                    aria-label="Toggle menu" id="menuButton" aria-expanded="false" aria-controls="mobileMenu">
                     <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"/>
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"
+                            d="M4 6h16M4 12h16M4 18h16" />
                     </svg>
                 </button>
-                
+
                 <!-- Desktop Navigation -->
                 <div class="hidden md:flex items-center space-x-8">
                     <a href="#home" class="nav-link text-gray-800" aria-current="page">Home</a>
                     <a href="#services" class="nav-link text-gray-800">Services</a>
                     <a href="#about" class="nav-link text-gray-800">About</a>
                     <a href="#contact" class="nav-link text-gray-800">Contact</a>
-                    
+
                     <!-- Desktop Language Toggle -->
                     <div class="relative">
-                        <button 
-                            id="languageToggle" 
+                        <button id="languageToggle"
                             class="flex items-center space-x-1 px-4 py-2 rounded-lg border-2 border-accent-gold text-gray-800 hover:bg-accent-gold hover:text-white transition-colors"
-                            aria-expanded="false"
-                            aria-controls="langDropdown"
-                            aria-label="Select language"
-                        >
+                            aria-expanded="false" aria-controls="langDropdown" aria-label="Select language">
                             <span id="currentLang">EN</span>
                             <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M19 9l-7 7-7-7" />
                             </svg>
                         </button>
-                        <div id="langDropdown" class="hidden absolute right-0 mt-2 w-32 bg-white shadow-lg rounded-lg overflow-hidden z-50">
-                            <a href="#" class="block px-4 py-2 text-gray-800 hover:bg-accent-gold hover:text-white transition-colors" data-lang="en">English</a>
-                            <a href="#" class="block px-4 py-2 text-gray-800 hover:bg-accent-gold hover:text-white transition-colors" data-lang="fr">Français</a>
-                            <a href="#" class="block px-4 py-2 text-gray-800 hover:bg-accent-gold hover:text-white transition-colors" data-lang="es">Español</a>
+                        <div id="langDropdown"
+                            class="hidden absolute right-0 mt-2 w-32 bg-white shadow-lg rounded-lg overflow-hidden z-50">
+                            <a href="#"
+                                class="block px-4 py-2 text-gray-800 hover:bg-accent-gold hover:text-white transition-colors"
+                                data-lang="en">English</a>
+                            <a href="#"
+                                class="block px-4 py-2 text-gray-800 hover:bg-accent-gold hover:text-white transition-colors"
+                                data-lang="fr">Français</a>
+                            <a href="#"
+                                class="block px-4 py-2 text-gray-800 hover:bg-accent-gold hover:text-white transition-colors"
+                                data-lang="es">Español</a>
                         </div>
                     </div>
                 </div>
             </div>
-        </div> 
+        </div>
         <!--Mobile Menu-->
         <div id="mobileMenu" class="mobile-menu md:hidden" role="navigation" aria-label="Mobile navigation">
             <div class="flex flex-col space-y-6">
                 <a href="#home" class="nav-link text-gray-800 text-lg hover:text-accent-gold transition-colors">Home</a>
-                <a href="#services" class="nav-link text-gray-800 text-lg hover:text-accent-gold transition-colors">Services</a>
-                <a href="#about" class="nav-link text-gray-800 text-lg hover:text-accent-gold transition-colors">About</a>
-                <a href="#contact" class="nav-link text-gray-800 text-lg hover:text-accent-gold transition-colors">Contact</a>
-                
+                <a href="#services"
+                    class="nav-link text-gray-800 text-lg hover:text-accent-gold transition-colors">Services</a>
+                <a href="#about"
+                    class="nav-link text-gray-800 text-lg hover:text-accent-gold transition-colors">About</a>
+                <a href="#contact"
+                    class="nav-link text-gray-800 text-lg hover:text-accent-gold transition-colors">Contact</a>
+
                 <!-- Mobile Language Toggle -->
                 <div class="mt-6 pt-6 border-t border-gray-200">
                     <div class="flex items-center justify-between">
                         <span class="text-gray-600 font-medium">Language / Langue</span>
-                        <button 
-                            id="mobileLangToggle" 
+                        <button id="mobileLangToggle"
                             class="flex items-center space-x-2 px-4 py-2 rounded-lg border-2 border-accent-gold text-gray-800 hover:bg-accent-gold hover:text-white transition-colors"
-                            aria-expanded="false"
-                            aria-controls="mobileLangDropdown"
-                        >
+                            aria-expanded="false" aria-controls="mobileLangDropdown">
                             <span id="mobileLang">EN</span>
                             <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M19 9l-7 7-7-7" />
                             </svg>
                         </button>
                     </div>
                     <div id="mobileLangDropdown" class="hidden mt-2 rounded-lg border border-gray-200 overflow-hidden">
-                        <button class="w-full px-4 py-2 text-left text-gray-800 hover:bg-accent-gold hover:text-white transition-colors" data-lang="en">
+                        <button
+                            class="w-full px-4 py-2 text-left text-gray-800 hover:bg-accent-gold hover:text-white transition-colors"
+                            data-lang="en">
                             English
                         </button>
-                        <button class="w-full px-4 py-2 text-left text-gray-800 hover:bg-accent-gold hover:text-white transition-colors" data-lang="fr">
+                        <button
+                            class="w-full px-4 py-2 text-left text-gray-800 hover:bg-accent-gold hover:text-white transition-colors"
+                            data-lang="fr">
                             Français
                         </button>
-                        <button class="w-full px-4 py-2 text-left text-gray-800 hover:bg-accent-gold hover:text-white transition-colors" data-lang="es">
+                        <button
+                            class="w-full px-4 py-2 text-left text-gray-800 hover:bg-accent-gold hover:text-white transition-colors"
+                            data-lang="es">
                             Español
                         </button>
                     </div>
                 </div>
             </div>
         </div>
-    </nav>  
-        <!-- Hero Section -->
-        <section id="home" class="hero-section text-white min-h-screen flex items-center">
-            <div class="container mx-auto px-6 text-center">
-                <h1 class="text-6xl font-bold mb-6 fade-in leading-tight">Vanegas Guzman Inc.</h1>
-                <p class="text-xl mb-10 fade-in opacity-90" style="animation-delay: 0.3s;">Supporting your path forward, one legal step at a time</p>
-                <a href="#contact" class="modern-button text-white px-10 py-4 rounded-full text-lg font-semibold fade-in" style="animation-delay: 0.6s;">
-                    Schedule Consultation
-                </a>
-            </div>
-        </section>
-
-        <!-- Services Section -->
-        <div class="service-card glass-effect p-8 rounded-2xl" data-aos="fade-up" data-aos-delay="100">
-            <h3 class="text-2xl font-semibold mb-4 gradient-text">Family Law</h3>
-            <ul class="text-gray-600 leading-relaxed space-y-3">
-                <li>• Divorce and legal separation proceedings with compassionate guidance</li>
-                <li>• Child custody, support, and parenting arrangement negotiations</li>
-                <li>• Post-judgment modifications and enforcement</li>
-            </ul>
-        </div>
-        <div class="service-card glass-effect p-8 rounded-2xl" data-aos="fade-up" data-aos-delay="200">
-            <h3 class="text-2xl font-semibold mb-4 gradient-text">Immigration</h3>
-            <ul class="text-gray-600 leading-relaxed space-y-3">
-                <li>• Refugee Appeals Division representation</li>
-                <li>• Federal Court applications for leave and judicial reviews in refugee claims</li>
-            </ul>
-        </div>
-        <div class="service-card glass-effect p-8 rounded-2xl" data-aos="fade-up" data-aos-delay="300">
-            <h3 class="text-2xl font-semibold mb-4 gradient-text">Criminal Law</h3>
-            <ul class="text-gray-600 leading-relaxed space-y-3">
-                <li>• Strategic case preparation and evidence gathering</li>
-                <li>• Court representation and plea negotiations</li>
-                <li>• Coordination with family law proceedings</li>
-            </ul>
+    </nav>
+    <!-- Hero Section -->
+    <section id="home" class="hero-section text-white min-h-screen flex items-center">
+        <div class="container mx-auto px-6 text-center">
+            <h1 class="text-6xl font-bold mb-6 fade-in leading-tight">Vanegas Guzman Inc.</h1>
+            <p class="text-xl mb-10 fade-in opacity-90" style="animation-delay: 0.3s;">Supporting your path forward, one
+                legal step at a time</p>
+            <a href="#contact" class="modern-button text-white px-10 py-4 rounded-full text-lg font-semibold fade-in"
+                style="animation-delay: 0.6s;">
+                Schedule Consultation
+            </a>
         </div>
     </section>
-        <!-- About Section -->
-        <section id="about" class="py-24 bg-white">
-            <div class="container mx-auto px-6">
-                <div class="flex flex-wrap items-center">
-                    <div class="w-full md:w-1/2 mb-12 md:mb-0" data-aos="fade-right">
-                        <img 
-                            src="assets/images/600x400.png" 
-                            alt="Law Office" 
-                            class="rounded-2xl shadow-2xl" 
-                            loading="lazy" 
-                            width="600" 
-                            height="400"
-                        >
-                    </div>
-                    <div class="w-full md:w-1/2 md:pl-16" data-aos="fade-left">
-                        <h2 class="text-4xl font-bold mb-8 gradient-text">Rutilio Vanegas Guzman</h2>
-                        <p class="text-gray-600 mb-6 text-lg leading-relaxed">
-                            For the past 11 years, I have had the honor of representing members of Montreal's diverse communities in family, criminal, and immigration law. I am dedicated to working collaboratively with my clients, always taking the time to truly listen and understand their concerns to help reduce their stress. My goal is to provide thorough legal representation while offering compassionate guidance through the complexities of legal processes.
-                        </p>
-                    </div>
+
+    <!-- Services Section -->
+    <section id="services">
+    <div class="service-card glass-effect p-8 rounded-2xl" data-aos="fade-up" data-aos-delay="100">
+        <h3 class="text-2xl font-semibold mb-4 gradient-text">Family Law</h3>
+        <ul class="text-gray-600 leading-relaxed space-y-3">
+            <li>• Divorce and legal separation proceedings with compassionate guidance</li>
+            <li>• Child custody, support, and parenting arrangement negotiations</li>
+            <li>• Post-judgment modifications and enforcement</li>
+        </ul>
+    </div>
+    <div class="service-card glass-effect p-8 rounded-2xl" data-aos="fade-up" data-aos-delay="200">
+        <h3 class="text-2xl font-semibold mb-4 gradient-text">Immigration</h3>
+        <ul class="text-gray-600 leading-relaxed space-y-3">
+            <li>• Refugee Appeals Division representation</li>
+            <li>• Federal Court applications for leave and judicial reviews in refugee claims</li>
+        </ul>
+    </div>
+    <div class="service-card glass-effect p-8 rounded-2xl" data-aos="fade-up" data-aos-delay="300">
+        <h3 class="text-2xl font-semibold mb-4 gradient-text">Criminal Law</h3>
+        <ul class="text-gray-600 leading-relaxed space-y-3">
+            <li>• Strategic case preparation and evidence gathering</li>
+            <li>• Court representation and plea negotiations</li>
+            <li>• Coordination with family law proceedings</li>
+        </ul>
+    </div>
+    </section>
+    <!-- About Section -->
+    <section id="about" class="py-24 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-wrap items-center">
+                <div class="w-full md:w-1/2 mb-12 md:mb-0" data-aos="fade-right">
+                    <img src="assets/images/600x400.png" alt="Law Office" class="rounded-2xl shadow-2xl" loading="lazy"
+                        width="600" height="400">
+                </div>
+                <div class="w-full md:w-1/2 md:pl-16" data-aos="fade-left">
+                    <h2 class="text-4xl font-bold mb-8 gradient-text">Rutilio Vanegas Guzman</h2>
+                    <p class="text-gray-600 mb-6 text-lg leading-relaxed">
+                        For the past 11 years, I have had the honor of representing members of Montreal's diverse
+                        communities in family, criminal, and immigration law. I am dedicated to working collaboratively
+                        with my clients, always taking the time to truly listen and understand their concerns to help
+                        reduce their stress. My goal is to provide thorough legal representation while offering
+                        compassionate guidance through the complexities of legal processes.
+                    </p>
                 </div>
             </div>
-        </section>
-
-        <!-- Contact Form Section -->
-        <section id="contact" class="py-24 bg-gray-50">
-            <div class="container mx-auto px-6">
-                <h2 class="text-4xl font-bold text-center mb-16 gradient-text" data-aos="fade-up">Contact Us</h2>
-                <div class="max-w-xl mx-auto">
-                    <!-- form attributes -->
-                    <form id="contactForm" class="space-y-8" data-aos="fade-up" data-aos-delay="100" novalidate aria-label="Contact form">
-                        <!-- Loading and Success States -->
-                        <div id="formStatus" class="hidden" role="alert" aria-live="polite">
-                            <div id="loadingState" class="hidden">
-                                <p class="text-blue-600 text-center">Sending message...</p>
-                            </div>
-                            <div id="successState" class="hidden">
-                                <p class="text-green-600 text-center">Message sent successfully!</p>
-                            </div>
-                            <div id="errorState" class="hidden">
-                                <p class="text-red-600 text-center">Error sending message. Please try again.</p>
-                            </div>
-                        </div>
-
-                        <!-- Name Field -->
-                        <div>
-                            <label class="block text-gray-700 mb-2 text-lg" for="name">Full Name *</label>
-                            <input 
-                                type="text" 
-                                id="name" 
-                                name="name" 
-                                class="form-input w-full px-6 py-4 rounded-xl focus:outline-none"
-                                required
-                                minlength="2"
-                                aria-required="true"
-                                aria-invalid="false"
-                                aria-describedby="nameError"
-                            >
-                            <span class="text-red-500 text-sm hidden" id="nameError" role="alert"></span>
-                        </div>
-
-                        <!-- Email Field -->
-                        <div>
-                            <label class="block text-gray-700 mb-2 text-lg" for="email">Email Address *</label>
-                            <input 
-                                type="email" 
-                                id="email" 
-                                name="email" 
-                                class="form-input w-full px-6 py-4 rounded-xl focus:outline-none"
-                                required
-                                pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
-                            >
-                            <span class="text-red-500 text-sm hidden" id="emailError" role="alert"></span>
-                        </div>
-
-                        <!-- Phone Field -->
-                        <div>
-                            <label class="block text-gray-700 mb-2 text-lg" for="phone">Phone Number</label>
-                            <input 
-                                type="tel" 
-                                id="phone" 
-                                name="phone" 
-                                class="form-input w-full px-6 py-4 rounded-xl focus:outline-none"
-                                pattern="[0-9]{3}[-. ]?[0-9]{3}[-. ]?[0-9]{4}"
-                            >
-                            <span class="text-red-500 text-sm hidden" id="phoneError" role="alert"></span>
-                        </div>
-
-                        <!-- Service Type Field with improved styling -->
-        <div>
-            <label class="block text-gray-700 mb-2 text-lg" for="service">Service Required *</label>
-            <select 
-                id="service" 
-                name="service" 
-                class="form-input w-full px-6 py-4 rounded-xl focus:outline-none bg-white cursor-pointer"
-                required
-                aria-label="Select service type"
-            >
-                <option value="" disabled selected>Select a service...</option>
-                <option value="family-law">Family Law</option>
-                <option value="immigration">Immigration</option>
-                <option value="criminal-law">Criminal Law</option>
-                <option value="consultation">General Consultation</option>
-            </select>
-            <span class="text-red-500 text-sm hidden" id="serviceError" role="alert"></span>
         </div>
+    </section>
 
-        <style>
-            select.form-input {
-                appearance: none;
-                background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
-                background-repeat: no-repeat;
-                background-position: right 1rem center;
-                background-size: 1em;
-                padding-right: 2.5rem;
-            }
-
-            select.form-input:focus {
-                border-color: var(--accent-gold);
-                box-shadow: 0 0 0 2px rgba(184, 161, 100, 0.2);
-            }
-        </style>
-
-                        <!-- Message Field -->
-                        <div>
-                            <label class="block text-gray-700 mb-2 text-lg" for="message">Your Message *</label>
-                            <textarea 
-                                id="message" 
-                                name="message" 
-                                rows="5" 
-                                class="form-input w-full px-6 py-4 rounded-xl focus:outline-none"
-                                required
-                                minlength="10"
-                            ></textarea>
-                            <span class="text-red-500 text-sm hidden" id="messageError" role="alert"></span>
+    <!-- Contact Form Section -->
+    <section id="contact" class="py-24 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-bold text-center mb-16 gradient-text" data-aos="fade-up">Contact Us</h2>
+            <div class="max-w-xl mx-auto">
+                <!-- form attributes -->
+                <form id="contactForm" class="space-y-8" data-aos="fade-up" data-aos-delay="100" novalidate
+                    aria-label="Contact form">
+                    <!-- Loading and Success States -->
+                    <div id="formStatus" class="hidden" role="alert" aria-live="polite">
+                        <div id="loadingState" class="hidden">
+                            <p class="text-blue-600 text-center">Sending message...</p>
                         </div>
+                        <div id="successState" class="hidden">
+                            <p class="text-green-600 text-center">Message sent successfully!</p>
+                        </div>
+                        <div id="errorState" class="hidden">
+                            <p class="text-red-600 text-center">Error sending message. Please try again.</p>
+                        </div>
+                    </div>
 
-                        <button 
-                            type="submit" 
-                            class="modern-button w-full text-white px-8 py-4 rounded-xl text-lg font-semibold"
-                        >
-                            Send Message
-                        </button>
-                    </form>
-                </div>
+                    <!-- Name Field -->
+                    <div>
+                        <label class="block text-gray-700 mb-2 text-lg" for="name">Full Name *</label>
+                        <input type="text" id="name" name="name"
+                            class="form-input w-full px-6 py-4 rounded-xl focus:outline-none" required minlength="2"
+                            aria-required="true" aria-invalid="false" aria-describedby="nameError">
+                        <span class="text-red-500 text-sm hidden" id="nameError" role="alert"></span>
+                    </div>
+
+                    <!-- Email Field -->
+                    <div>
+                        <label class="block text-gray-700 mb-2 text-lg" for="email">Email Address *</label>
+                        <input type="email" id="email" name="email"
+                            class="form-input w-full px-6 py-4 rounded-xl focus:outline-none" required
+                            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+                        <span class="text-red-500 text-sm hidden" id="emailError" role="alert"></span>
+                    </div>
+
+                    <!-- Phone Field -->
+                    <div>
+                        <label class="block text-gray-700 mb-2 text-lg" for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone"
+                            class="form-input w-full px-6 py-4 rounded-xl focus:outline-none"
+                            pattern="[0-9]{3}[-. ]?[0-9]{3}[-. ]?[0-9]{4}">
+                        <span class="text-red-500 text-sm hidden" id="phoneError" role="alert"></span>
+                    </div>
+
+                    <!-- Service Type Field with improved styling -->
+                    <div>
+                        <label class="block text-gray-700 mb-2 text-lg" for="service">Service Required *</label>
+                        <select id="service" name="service"
+                            class="form-input w-full px-6 py-4 rounded-xl focus:outline-none bg-white cursor-pointer"
+                            required aria-label="Select service type">
+                            <option value="" disabled selected>Select a service...</option>
+                            <option value="family-law">Family Law</option>
+                            <option value="immigration">Immigration</option>
+                            <option value="criminal-law">Criminal Law</option>
+                            <option value="consultation">General Consultation</option>
+                        </select>
+                        <span class="text-red-500 text-sm hidden" id="serviceError" role="alert"></span>
+                    </div>
+
+                    <style>
+                        select.form-input {
+                            appearance: none;
+                            background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+                            background-repeat: no-repeat;
+                            background-position: right 1rem center;
+                            background-size: 1em;
+                            padding-right: 2.5rem;
+                        }
+
+                        select.form-input:focus {
+                            border-color: var(--accent-gold);
+                            box-shadow: 0 0 0 2px rgba(184, 161, 100, 0.2);
+                        }
+                    </style>
+
+                    <!-- Message Field -->
+                    <div>
+                        <label class="block text-gray-700 mb-2 text-lg" for="message">Your Message *</label>
+                        <textarea id="message" name="message" rows="5"
+                            class="form-input w-full px-6 py-4 rounded-xl focus:outline-none" required
+                            minlength="10"></textarea>
+                        <span class="text-red-500 text-sm hidden" id="messageError" role="alert"></span>
+                    </div>
+
+                    <button type="submit"
+                        class="modern-button w-full text-white px-8 py-4 rounded-xl text-lg font-semibold">
+                        Send Message
+                    </button>
+                </form>
             </div>
-        </section>
-   
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-   
-    // Form handling elements
-    const form = document.getElementById('contactForm');
-    const formStatus = document.getElementById('formStatus');
-    const loadingState = document.getElementById('loadingState');
-    const successState = document.getElementById('successState');
-    const errorState = document.getElementById('errorState');
+        </div>
+    </section>
 
-    // Navigation elements
-    const menuButton = document.getElementById('menuButton');
-    const mobileMenu = document.getElementById('mobileMenu');
-    const body = document.body;
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
 
-    // Language toggle elements
-    const languageToggle = document.getElementById('languageToggle');
-    const langDropdown = document.getElementById('langDropdown');
-    const currentLang = document.getElementById('currentLang');
-    const mobileLangToggle = document.getElementById('mobileLangToggle');
-    const mobileLangDropdown = document.getElementById('mobileLangDropdown');
-    let currentLanguage = 'en';
+            // Form handling elements
+            const form = document.getElementById('contactForm');
+            const formStatus = document.getElementById('formStatus');
+            const loadingState = document.getElementById('loadingState');
+            const successState = document.getElementById('successState');
+            const errorState = document.getElementById('errorState');
 
-    // Toggle mobile menu
-    if (menuButton && mobileMenu) {
-        menuButton.addEventListener('click', function() {
-            const isExpanded = this.getAttribute('aria-expanded') === 'true';
-            this.setAttribute('aria-expanded', !isExpanded);
-            mobileMenu.classList.toggle('active');
-            mobileMenu.setAttribute('aria-hidden', isExpanded);
-            body.style.overflow = isExpanded ? '' : 'hidden';
-        });
-    }
+            // Navigation elements
+            const menuButton = document.getElementById('menuButton');
+            const mobileMenu = document.getElementById('mobileMenu');
+            const body = document.body;
 
-    // Close menu when clicking outside
-    document.addEventListener('click', function(e) {
-        if (mobileMenu.classList.contains('active') && 
-            !mobileMenu.contains(e.target) && 
-            !menuButton.contains(e.target)) {
-            mobileMenu.classList.remove('active');
-            menuButton.setAttribute('aria-expanded', 'false');
-            mobileMenu.setAttribute('aria-hidden', 'true');
-            body.style.overflow = '';
-        }
-    });
+            // Language toggle elements
+            const languageToggle = document.getElementById('languageToggle');
+            const langDropdown = document.getElementById('langDropdown');
+            const currentLang = document.getElementById('currentLang');
+            const mobileLangToggle = document.getElementById('mobileLangToggle');
+            const mobileLangDropdown = document.getElementById('mobileLangDropdown');
+            let currentLanguage = 'en';
 
-    // Handle mobile language selection
-    const langOptions = document.querySelectorAll('.lang-option');
-    langOptions.forEach(option => {
-        option.addEventListener('click', function() {
-            const lang = this.dataset.lang;
-            updateLanguage(lang); // 
-            mobileMenu.classList.remove('active');
-            menuButton.setAttribute('aria-expanded', 'false');
-            body.style.overflow = '';
-        });
-    });
-
-    // Add touch event handling
-    mobileMenu.addEventListener('touchmove', function(e) {
-        e.preventDefault();
-    }, { passive: false });
-
-    // Add touch feedback to buttons and links
-    const buttons = document.querySelectorAll('button, .nav-link');
-    buttons.forEach(button => {
-        button.addEventListener('touchstart', function() {
-            this.style.opacity = '0.7';
-        });
-        button.addEventListener('touchend', function() {
-            this.style.opacity = '1';
-        });
-    });
-});
-
-    // Language toggle elements
-    const languageToggle = document.getElementById('languageToggle');
-    const langDropdown = document.getElementById('langDropdown');
-    const currentLang = document.getElementById('currentLang');
-        
-    // Language toggle functionality
-    if (languageToggle && langDropdown) {
-        languageToggle.addEventListener('click', function(e) {
-            e.stopPropagation();
-            const isExpanded = this.getAttribute('aria-expanded') === 'true';
-            this.setAttribute('aria-expanded', !isExpanded);
-            langDropdown.classList.toggle('visible');
-        });
-
-        // Close dropdown when clicking outside
-        document.addEventListener('click', function(e) {
-            if (!languageToggle.contains(e.target)) {
-                langDropdown.classList.add('hidden');
-                languageToggle.setAttribute('aria-expanded', 'false');
+            // Toggle mobile menu
+            if (menuButton && mobileMenu) {
+                menuButton.addEventListener('click', function () {
+                    const isExpanded = this.getAttribute('aria-expanded') === 'true';
+                    this.setAttribute('aria-expanded', !isExpanded);
+                    mobileMenu.classList.toggle('active');
+                    mobileMenu.setAttribute('aria-hidden', isExpanded);
+                    body.style.overflow = isExpanded ? '' : 'hidden';
+                });
             }
-        });
-    }
 
-    // Mobile language toggle
-    if (mobileLangToggle) {
-        const mobileLang = document.getElementById('mobileLang');
-        mobileLang.addEventListener('click', function(e) {
-            e.stopPropagation();
-            mobileLangDropdown.classList.toggle('hidden');
-        });
-    }
-
-    // Form validation
-    function validateField(field) {
-        const errorSpan = document.getElementById(`${field.id}Error`);
-        let isValid = true;
-
-        // Reset aria-invalid
-        field.setAttribute('aria-invalid', 'false');
-
-        if (field.required && !field.value) {
-            errorSpan.textContent = 'This field is required';
-            errorSpan.classList.remove('hidden');
-            field.setAttribute('aria-invalid', 'true');
-            isValid = false;
-        } else if (field.type === 'email' && field.value) {
-            const emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
-            if (!emailPattern.test(field.value)) {
-                errorSpan.textContent = 'Please enter a valid email address';
-                errorSpan.classList.remove('hidden');
-                field.setAttribute('aria-invalid', 'true');
-                isValid = false;
-            }
-        } else if (field.type === 'tel' && field.value) {
-            const phonePattern = /^[0-9]{3}[-. ]?[0-9]{3}[-. ]?[0-9]{4}$/;
-            if (!phonePattern.test(field.value)) {
-                errorSpan.textContent = 'Please enter a valid phone number';
-                errorSpan.classList.remove('hidden');
-                field.setAttribute('aria-invalid', 'true');
-                isValid = false;
-            }
-        }
-
-        if (isValid) {
-            errorSpan.classList.add('hidden');
-        }
-
-        return isValid;
-    }
-
-    // Form submission handler
-    if (form) {
-        form.addEventListener('submit', async function(e) {
-            e.preventDefault();
-
-            // Reset status messages
-            formStatus.classList.remove('hidden');
-            loadingState.classList.remove('hidden');
-            successState.classList.add('hidden');
-            errorState.classList.add('hidden');
-
-            // Validate all fields
-            let isValid = true;
-            const fields = form.querySelectorAll('input, select, textarea');
-            fields.forEach(field => {
-                if (!validateField(field)) {
-                    isValid = false;
+            // Close menu when clicking outside
+            document.addEventListener('click', function (e) {
+                if (mobileMenu.classList.contains('active') &&
+                    !mobileMenu.contains(e.target) &&
+                    !menuButton.contains(e.target)) {
+                    mobileMenu.classList.remove('active');
+                    menuButton.setAttribute('aria-expanded', 'false');
+                    mobileMenu.setAttribute('aria-hidden', 'true');
+                    body.style.overflow = '';
                 }
             });
 
-            if (!isValid) {
-                loadingState.classList.add('hidden');
-                return;
+            // Handle mobile language selection
+            const langOptions = document.querySelectorAll('.lang-option');
+            langOptions.forEach(option => {
+                option.addEventListener('click', function () {
+                    const lang = this.dataset.lang;
+                    updateLanguage(lang); // 
+                    mobileMenu.classList.remove('active');
+                    menuButton.setAttribute('aria-expanded', 'false');
+                    body.style.overflow = '';
+                });
+            });
+
+            // Add touch event handling
+            mobileMenu.addEventListener('touchmove', function (e) {
+                e.preventDefault();
+            }, { passive: false });
+
+            // Add touch feedback to buttons and links
+            const buttons = document.querySelectorAll('button, .nav-link');
+            buttons.forEach(button => {
+                button.addEventListener('touchstart', function () {
+                    this.style.opacity = '0.7';
+                });
+                button.addEventListener('touchend', function () {
+                    this.style.opacity = '1';
+                });
+            });
+        });
+
+        // Language toggle elements
+        const languageToggle = document.getElementById('languageToggle');
+        const langDropdown = document.getElementById('langDropdown');
+        const currentLang = document.getElementById('currentLang');
+
+        // Language toggle functionality
+        if (languageToggle && langDropdown) {
+            languageToggle.addEventListener('click', function (e) {
+                e.stopPropagation();
+                const isExpanded = this.getAttribute('aria-expanded') === 'true';
+                this.setAttribute('aria-expanded', !isExpanded);
+                langDropdown.classList.toggle('visible');
+            });
+
+            // Close dropdown when clicking outside
+            document.addEventListener('click', function (e) {
+                if (!languageToggle.contains(e.target)) {
+                    langDropdown.classList.add('hidden');
+                    languageToggle.setAttribute('aria-expanded', 'false');
+                }
+            });
+        }
+
+        // Mobile language toggle
+        if (mobileLangToggle) {
+            const mobileLang = document.getElementById('mobileLang');
+            mobileLang.addEventListener('click', function (e) {
+                e.stopPropagation();
+                mobileLangDropdown.classList.toggle('hidden');
+            });
+        }
+
+        // Form validation
+        function validateField(field) {
+            const errorSpan = document.getElementById(`${field.id}Error`);
+            let isValid = true;
+
+            // Reset aria-invalid
+            field.setAttribute('aria-invalid', 'false');
+
+            if (field.required && !field.value) {
+                errorSpan.textContent = 'This field is required';
+                errorSpan.classList.remove('hidden');
+                field.setAttribute('aria-invalid', 'true');
+                isValid = false;
+            } else if (field.type === 'email' && field.value) {
+                const emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
+                if (!emailPattern.test(field.value)) {
+                    errorSpan.textContent = 'Please enter a valid email address';
+                    errorSpan.classList.remove('hidden');
+                    field.setAttribute('aria-invalid', 'true');
+                    isValid = false;
+                }
+            } else if (field.type === 'tel' && field.value) {
+                const phonePattern = /^[0-9]{3}[-. ]?[0-9]{3}[-. ]?[0-9]{4}$/;
+                if (!phonePattern.test(field.value)) {
+                    errorSpan.textContent = 'Please enter a valid phone number';
+                    errorSpan.classList.remove('hidden');
+                    field.setAttribute('aria-invalid', 'true');
+                    isValid = false;
+                }
             }
 
-            // Prepare form data
-            const formData = new FormData(form);
-            const data = Object.fromEntries(formData.entries());
+            if (isValid) {
+                errorSpan.classList.add('hidden');
+            }
 
-            try {
-                const response = await fetch('https://formspree.io/f/mvggakzr', {
-                    method: 'POST',
-                    headers: {
-                        'Content-Type': 'application/json',
-                    },
-                    body: JSON.stringify(data)
+            return isValid;
+        }
+
+        // Form submission handler
+        if (form) {
+            form.addEventListener('submit', async function (e) {
+                e.preventDefault();
+
+                // Reset status messages
+                formStatus.classList.remove('hidden');
+                loadingState.classList.remove('hidden');
+                successState.classList.add('hidden');
+                errorState.classList.add('hidden');
+
+                // Validate all fields
+                let isValid = true;
+                const fields = form.querySelectorAll('input, select, textarea');
+                fields.forEach(field => {
+                    if (!validateField(field)) {
+                        isValid = false;
+                    }
                 });
 
-                if (response.ok) {
+                if (!isValid) {
                     loadingState.classList.add('hidden');
-                    successState.classList.remove('hidden');
-                    form.reset();
-                    // Reset aria-invalid states
-                    fields.forEach(field => field.setAttribute('aria-invalid', 'false'));
-                } else {
-                    throw new Error('Form submission failed');
+                    return;
                 }
-            } catch (error) {
-                loadingState.classList.add('hidden');
-                errorState.classList.remove('hidden');
-                console.error('Error:', error);
-            }
+
+                // Prepare form data
+                const formData = new FormData(form);
+                const data = Object.fromEntries(formData.entries());
+
+                try {
+                    const response = await fetch('https://formspree.io/f/mvggakzr', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json',
+                        },
+                        body: JSON.stringify(data)
+                    });
+
+                    if (response.ok) {
+                        loadingState.classList.add('hidden');
+                        successState.classList.remove('hidden');
+                        form.reset();
+                        // Reset aria-invalid states
+                        fields.forEach(field => field.setAttribute('aria-invalid', 'false'));
+                    } else {
+                        throw new Error('Form submission failed');
+                    }
+                } catch (error) {
+                    loadingState.classList.add('hidden');
+                    errorState.classList.remove('hidden');
+                    console.error('Error:', error);
+                }
+            });
+
+            // Real-time validation
+            const fields = form.querySelectorAll('input, select, textarea');
+            fields.forEach(field => {
+                field.addEventListener('blur', () => validateField(field));
+            });
+        }
+
+        // Initialize AOS
+        if (typeof AOS !== 'undefined') {
+            AOS.init({
+                duration: 1000,
+                once: true,
+                offset: 100,
+            });
+        }
+
+        // Add CSRF protection and rate limiting
+        const form = document.getElementById('contactForm');
+        form.addEventListener('submit', async (e) => {
+            e.preventDefault();
+            if (!validateForm()) return;
+            // ... rest of form submission code
         });
 
-        // Real-time validation
-        const fields = form.querySelectorAll('input, select, textarea');
-        fields.forEach(field => {
-            field.addEventListener('blur', () => validateField(field));
-        });
-    }
-
-    // Initialize AOS
-    if (typeof AOS !== 'undefined') {
-        AOS.init({
-            duration: 1000,
-            once: true,
-            offset: 100,
-        });
-    }
-
-// Add CSRF protection and rate limiting
-const form = document.getElementById('contactForm');
-form.addEventListener('submit', async (e) => {
-    e.preventDefault();
-    if (!validateForm()) return;
-    // ... rest of form submission code
-});
-
-</script>
+    </script>
 
     <!-- Footer -->
     <footer style="background-color: var(-primary-darky)" class="text-white py-16">
@@ -1115,19 +1136,15 @@ form.addEventListener('submit', async (e) => {
                 <div data-aos="fade-up" data-aos-delay="100">
                     <h3 class="text-2xl font-bold mb-6" style="color: var(--accent-gold)">Vanegas Guzman Inc.</h3>
                     <div class="social-links mb-6 w-full">
-                        <a href="https://www.facebook.com/people/Vanegas-Guzman-Inc/61556570083138/" 
-                           target="_blank" 
-                           rel="noopener noreferrer" 
-                           aria-label="Visit our Facebook page"
-                           class="w-full flex justify-center items-center">
+                        <a href="https://www.facebook.com/people/Vanegas-Guzman-Inc/61556570083138/" target="_blank"
+                            rel="noopener noreferrer" aria-label="Visit our Facebook page"
+                            class="w-full flex justify-center items-center">
                             <i class="fab fa-facebook"></i>
                             <span>Visit our Facebook page</span>
                         </a>
-                        <a href="https://www.linkedin.com/in/me-carlos-rutilio-vanegas-guzman-7b70321a7/" 
-                           target="_blank" 
-                           rel="noopener noreferrer" 
-                           aria-label="Visit our LinkedIn page"
-                           class="w-full flex justify-center items-center">
+                        <a href="https://www.linkedin.com/in/me-carlos-rutilio-vanegas-guzman-7b70321a7/"
+                            target="_blank" rel="noopener noreferrer" aria-label="Visit our LinkedIn page"
+                            class="w-full flex justify-center items-center">
                             <i class="fab fa-linkedin"></i>
                             <span>Visit our LinkedIn page</span>
                         </a>
@@ -1139,13 +1156,13 @@ form.addEventListener('submit', async (e) => {
                         <p class="text-gray-300 leading-relaxed no-translate">info@vanegasguzmaninc.com</p>
                     </div>
                 </div>
-                
+
                 <div data-aos="fade-up" data-aos-delay="200">
                     <h3 class="text-2xl font-bold mb-6" style="color: var(--accent-gold)">Montreal Office</h3>
                     <p class="text-gray-300 leading-relaxed">442, rue St-Gabriel, suite 101</p>
                     <p class="text-gray-300 leading-relaxed">Montreal, Quebec H2Y 2Z9</p>
                 </div>
-                
+
                 <div data-aos="fade-up" data-aos-delay="300">
                     <h3 class="text-2xl font-bold mb-6" style="color: var(--accent-gold)">Point-Claire Office</h3>
                     <p class="text-gray-300 leading-relaxed">TransCanada, 6500 Chemin de Service S</p>
@@ -1153,7 +1170,7 @@ form.addEventListener('submit', async (e) => {
                     <p class="text-gray-300 leading-relaxed">Point-Claire, Quebec, H9R 0A5</p>
                 </div>
             </div>
-            
+
             <div class="border-t border-gray-800 mt-12 pt-8 text-center text-gray-300">
                 <p>&copy; 2024 Vanegas Guzman Inc. All rights reserved.</p>
             </div>
@@ -1167,706 +1184,707 @@ form.addEventListener('submit', async (e) => {
             once: true,
             offset: 100
         });
-</script>
+    </script>
 
-<script>
-    // FIXME: Migrate this to an xml file or something, for my sanity.
-    const translations = {
-    en: {
-         // Navigation and general content
-         home: "Home",
-        services: "Services",
-        about: "About",
-        contact: "Contact",
-        heroTitle: "Vanegas Guzman Inc.",
-        heroSubtitle: "Supporting your path forward, one legal step at a time",
-        scheduleConsultation: "Schedule Consultation",
-        servicesTitle: "Our Expertise",
-        aboutHeader: "Rutilio Vanegas Guzman",
-        aboutDescription: "For the past 11 years, I have had the honor of representing members of Montreal's diverse communities in family, criminal, and immigration law. I am dedicated to working collaboratively with my clients, always taking the time to truly listen and understand their concerns to help reduce their stress. My goal is to provide thorough legal representation while offering compassionate guidance through the complexities of legal processes.",
-        
-        // Family Law Section
-        familyLawTitle: "Family Law",
-        familyLawDesc: {
-            items: [
-                "Divorce and legal separation proceedings with compassionate guidance",
-                "Child custody, support, and parenting arrangement negotiations",
-                "Post-judgment modifications and enforcement"
-            ]
-        },
-        
-        // Immigration Section
-        immigrationTitle: "Immigration",
-        immigrationDesc: {
-            items: [
-                "Refugee Appeals Division representation",
-                "Federal Court applications for leave and judicial reviews in refugee claims",
-            ]
-        },
-        
-        // Criminal Law Section
-        criminalLawTitle: "Criminal Law",
-        criminalLawDesc: {
-            items: [
-                "Strategic case preparation and evidence gathering",
-                "Court representation and plea negotiations",
-                "Coordination with family law proceedings",
-            ]
-        },
-        
-        // Contact Form
-        fullName: "Full Name *",
-        email: "Email Address *",
-        phone: "Phone Number",
-        serviceRequired: "Service Required *",
-        message: "Your Message *",
-        sendMessage: "Send Message",
-        selectService: "Select a service...",
-        familyLawOption: "Family Law",
-        immigrationOption: "Immigration",
-        criminalLawOption: "Criminal Law",
-        consultationOption: "General Consultation",
-        contactTitle: "Contact Us",
-        
-        // Form Validation
-        required: "*",
-        fieldRequired: "This field is required",
-        invalidEmail: "Please enter a valid email address",
-        invalidPhone: "Please enter a valid phone number",
-        
-        // Social Links
-        socialFollow: "Follow Us",
-        facebookLabel: "Visit our Facebook page",
-        linkedinLabel: "Visit our LinkedIn page",
-        facebookText: "Visit our Facebook page",
-        linkedinText: "Visit our LinkedIn page",
-        founderTitle: "Founder",
-        generalInquiries: "General Inquiries:"
-    },
-    fr: {
-        // Navigation et contenu général
-        home: "Accueil",
-        services: "Services",
-        about: "À Propos",
-        contact: "Contact",
-        heroTitle: "Vanegas Guzman Inc.",
-        heroSubtitle: "Soutenir votre progression, une étape juridique à la fois",
-        scheduleConsultation: "Planifier une consultation",
-        servicesTitle: "Notre Expertise",
-        aboutHeader: "Me Rutilio Vanegas Guzman",
-        aboutDescription: "Pour les dernières 11 ans, j'étais doué de l'honneur de présenter les membres des diverse communautés de Grand Montréal; en matières familiales, criminelle et d'immigration. En outre de cela, je suis dévoué à travailler collaborativement avec mes clients et en prenant toujours le temps à écouter et à comprendre leurs inquiétudes afin d'aider à réduire leur stress. Mon objectif s'agit d'offrir une représentation légale mineutieuse, tout en offrant guidance compatissant sur les complexités des procès légales.",
-        contactTitle: "Contactez-Nous",
-        
-        // Section Droit de la Famille
-        familyLawTitle: "Droit de la Famille",
-        familyLawDesc: {
-            items: [
-                "Procédures de divorce et de séparation légale avec accompagnement compatissant",
-                "Négociations de garde d'enfants, pension alimentaire et arrangements parentaux",
-                "Modifications et exécution des jugements"
-            ]
-        },
-        
-        // Section Immigration
-        immigrationTitle: "Immigration",
-        immigrationDesc: {
-            items: [
-                "Représentation devant la Section d'appel des réfugiés",
-                "Demandes et contrôles judiciaires à la Cour fédérale",
-            ]
-        },
-        
-        // Section Droit Pénal
-        criminalLawTitle: "Droit Pénal",
-        criminalLawDesc: {
-            items: [
-                "Préparation stratégique et collecte de preuves",
-                "Représentation en cour et négociation de plaidoyers",
-                "Coordination avec les procédures en droit de la famille",
-            ]
-        },
-        
-        // Formulaire de Contact
-        fullName: "Nom complet *",
-        email: "Adresse courriel *",
-        phone: "Numéro de téléphone",
-        serviceRequired: "Service requis *",
-        message: "Votre message *",
-        sendMessage: "Envoyer le message",
-        selectService: "Sélectionnez un service...",
-        familyLawOption: "Droit de la famille",
-        immigrationOption: "Immigration",
-        criminalLawOption: "Droit pénal",
-        consultationOption: "Consultation générale",
-        
-        // Validation du Formulaire
-        required: "*",
-        fieldRequired: "Ce champ est obligatoire",
-        invalidEmail: "Veuillez entrer une adresse courriel valide",
-        invalidPhone: "Veuillez entrer un numéro de téléphone valide",
-        
-         // Liens Sociaux
-         socialFollow: "Suivez-nous",
-        facebookLabel: "Visitez notre page Facebook",
-        linkedinLabel: "Visitez notre page LinkedIn",
-        facebookText: "Visitez notre page Facebook",
-        linkedinText: "Visitez notre page LinkedIn",
-        founderTitle: "Fondateur",
-        generalInquiries: "Demandes Générales:"
-    },
-     es: {
-        // Navigation and general content
-        home: "Inicio",
-        services: "Servicios",
-        about: "Nosotros",
-        contact: "Contacto",
-        heroTitle: "Vanegas Guzman Inc.",
-        heroSubtitle: "Apoyando tu camino hacia adelante, un paso legal a la vez",
-        scheduleConsultation: "Agendar Consulta",
-        servicesTitle: "Nuestra Experiencia",
-        aboutHeader: "Abogado Rutilio Vanegas Guzman",
-        /* OGL: Just used a translator for this, becuase I am not confident enough in my spanish to translate this. */
-        aboutDescription: "Durante los últimos 11 años, he tenido el honor de representar a miembros de las diversas comunidades de Montreal en derecho de familia, penal y de inmigración. Me dedico a trabajar en colaboración con mis clientes, siempre tomando el tiempo para escuchar y entender sus preocupaciones para ayudar a reducir su estrés. Mi objetivo es proporcionar una representación legal completa al tiempo que ofrece orientación compasiva a través de las complejidades de los procesos legales.",
-        
-        // Family Law Section
-        familyLawTitle: "Derecho Familiar",
-        familyLawDesc: {
-            items: [
-                "Negociaciones de custodia de menores, pensión alimenticia y acuerdos parentales",
-                "Órdenes de protección y medidas de emergencia para casos de violencia doméstica",
-                "Servicios de mediación y resolución de conflictos",
-            ]
-        },
-        
-        // Immigration Section
-        immigrationTitle: "Inmigración",
-        immigrationDesc: {
-            items: [
-                "Representación ante la División de Apelaciones para Refugiados (RAD)",
-                "Solicitudes y revisiones judiciales ante la Corte Federal",
-            ]
-        },
-        
-        // Criminal Law Section
-        criminalLawTitle: "Derecho Penal",
-        criminalLawDesc: {
-            items: [
-                "Defensa especializada en casos de violencia conyugal",
-                "Preparación estratégica de casos y recopilación de pruebas",
-                "Servicios post-condena y apelaciones"
-            ]
-        },
-        
-        // Contact Form
-        fullName: "Nombre Completo *",
-        email: "Correo Electrónico *",
-        phone: "Número de Teléfono",
-        serviceRequired: "Servicio Requerido *",
-        message: "Su Mensaje *",
-        sendMessage: "Enviar Mensaje",
-        selectService: "Seleccione un servicio...",
-        familyLawOption: "Derecho Familiar",
-        immigrationOption: "Inmigración",
-        criminalLawOption: "Derecho Penal",
-        consultationOption: "Consulta General",
-        contactTitle: "Contáctenos",
-        
-        // Form Validation
-        required: "*",
-        fieldRequired: "Este campo es obligatorio",
-        invalidEmail: "Por favor ingrese un correo electrónico válido",
-        invalidPhone: "Por favor ingrese un número de teléfono válido",
-        
-        // Social Links
-        socialFollow: "Síguenos",
-        facebookLabel: "Visita nuestra página de Facebook",
-        linkedinLabel: "Visita nuestra página de LinkedIn",
-        facebookText: "Visita nuestra página de Facebook",
-        linkedinText: "Visita nuestra página de LinkedIn",
-        founderTitle: "Fundador",
-        generalInquiries: "Consultas Generales:"
-    }
-};
+    <script>
+        // FIXME: Migrate this to an xml file or something, for my sanity.
+        const translations = {
+            en: {
+                // Navigation and general content
+                home: "Home",
+                services: "Services",
+                about: "About",
+                contact: "Contact",
+                heroTitle: "Vanegas Guzman Inc.",
+                heroSubtitle: "Supporting your path forward, one legal step at a time",
+                scheduleConsultation: "Schedule Consultation",
+                servicesTitle: "Our Expertise",
+                aboutHeader: "Rutilio Vanegas Guzman",
+                aboutDescription: "For the past 11 years, I have had the honor of representing members of Montreal's diverse communities in family, criminal, and immigration law. I am dedicated to working collaboratively with my clients, always taking the time to truly listen and understand their concerns to help reduce their stress. My goal is to provide thorough legal representation while offering compassionate guidance through the complexities of legal processes.",
 
-// Initialize AOS immediately
-if (typeof AOS !== 'undefined') {
-    AOS.init({
-        duration: 1000,
-        once: true,
-        offset: 100
-    });
-}
+                // Family Law Section
+                familyLawTitle: "Family Law",
+                familyLawDesc: {
+                    items: [
+                        "Divorce and legal separation proceedings with compassionate guidance",
+                        "Child custody, support, and parenting arrangement negotiations",
+                        "Post-judgment modifications and enforcement"
+                    ]
+                },
 
-// Main initialization when DOM is loaded
-document.addEventListener('DOMContentLoaded', function() {
-    // Cache DOM elements
-    const form = document.getElementById('contactForm');
-    const formStatus = document.getElementById('formStatus');
-    const loadingState = document.getElementById('loadingState');
-    const successState = document.getElementById('successState');
-    const errorState = document.getElementById('errorState');
-    const menuButton = document.getElementById('menuButton');
-    const mobileMenu = document.getElementById('mobileMenu');
-    const languageToggle = document.getElementById('languageToggle');
-    const mobileLangToggle = document.getElementById('mobileLangToggle');
-    const langDropdown = document.getElementById('langDropdown');
-    const currentLang = document.getElementById('currentLang');
-    const mobileLang = document.getElementById('mobileLang');
-    const mobileLangDropdown = document.getElementById('mobileLangDropdown');
-    let currentLanguage = 'en';
+                // Immigration Section
+                immigrationTitle: "Immigration",
+                immigrationDesc: {
+                    items: [
+                        "Refugee Appeals Division representation",
+                        "Federal Court applications for leave and judicial reviews in refugee claims",
+                    ]
+                },
 
-    // Mobile menu functionality
-    document.addEventListener('DOMContentLoaded', function() {
-        const menuButton = document.getElementById('menuButton');
-        const mobileMenu = document.getElementById('mobileMenu');
-        const body = document.body;
+                // Criminal Law Section
+                criminalLawTitle: "Criminal Law",
+                criminalLawDesc: {
+                    items: [
+                        "Strategic case preparation and evidence gathering",
+                        "Court representation and plea negotiations",
+                        "Coordination with family law proceedings",
+                    ]
+                },
 
-        if (menuButton && mobileMenu) {
-            menuButton.addEventListener('click', function() {
-                const isExpanded = this.getAttribute('aria-expanded') === 'true';
-                this.setAttribute('aria-expanded', !isExpanded);
-                
-                if (!isExpanded) {
-                    // Show menu
-                    mobileMenu.style.display = 'block';
-                    requestAnimationFrame(() => {
-                        mobileMenu.style.transform = 'translateX(0)';
-                    });
-                    body.style.overflow = 'hidden';
-                } else {
-                    // Hide menu
-                    mobileMenu.style.transform = 'translateX(100%)';
-                    body.style.overflow = '';
-                    setTimeout(() => {
-                        mobileMenu.style.display = 'none';
-                    }, 300);
-                }
-            });
+                // Contact Form
+                fullName: "Full Name *",
+                email: "Email Address *",
+                phone: "Phone Number",
+                serviceRequired: "Service Required *",
+                message: "Your Message *",
+                sendMessage: "Send Message",
+                selectService: "Select a service...",
+                familyLawOption: "Family Law",
+                immigrationOption: "Immigration",
+                criminalLawOption: "Criminal Law",
+                consultationOption: "General Consultation",
+                contactTitle: "Contact Us",
 
-            // Close menu when clicking outside
-            document.addEventListener('click', function(e) {
-                if (!mobileMenu.contains(e.target) && !menuButton.contains(e.target)) {
-                    menuButton.setAttribute('aria-expanded', 'false');
-                    mobileMenu.style.transform = 'translateX(100%)';
-                    body.style.overflow = '';
-                    setTimeout(() => {
-                        mobileMenu.style.display = 'none';
-                    }, 300);
-                }
-            });
+                // Form Validation
+                required: "*",
+                fieldRequired: "This field is required",
+                invalidEmail: "Please enter a valid email address",
+                invalidPhone: "Please enter a valid phone number",
 
-            // Prevent menu clicks from closing
-            mobileMenu.addEventListener('click', function(e) {
-                e.stopPropagation();
-            });
-        }
-    });
+                // Social Links
+                socialFollow: "Follow Us",
+                facebookLabel: "Visit our Facebook page",
+                linkedinLabel: "Visit our LinkedIn page",
+                facebookText: "Visit our Facebook page",
+                linkedinText: "Visit our LinkedIn page",
+                founderTitle: "Founder",
+                generalInquiries: "General Inquiries:"
+            },
+            fr: {
+                // Navigation et contenu général
+                home: "Accueil",
+                services: "Services",
+                about: "À Propos",
+                contact: "Contact",
+                heroTitle: "Vanegas Guzman Inc.",
+                heroSubtitle: "Soutenir votre progression, une étape juridique à la fois",
+                scheduleConsultation: "Planifier une consultation",
+                servicesTitle: "Notre Expertise",
+                aboutHeader: "Me Rutilio Vanegas Guzman",
+                aboutDescription: "Pour les dernières 11 ans, j'étais doué de l'honneur de présenter les membres des diverse communautés de Grand Montréal; en matières familiales, criminelle et d'immigration. En outre de cela, je suis dévoué à travailler collaborativement avec mes clients et en prenant toujours le temps à écouter et à comprendre leurs inquiétudes afin d'aider à réduire leur stress. Mon objectif s'agit d'offrir une représentation légale mineutieuse, tout en offrant guidance compatissant sur les complexités des procès légales.",
+                contactTitle: "Contactez-Nous",
 
-    // Language toggle functionality
-    if (languageToggle && langDropdown) {
-    const mobileLangToggle = document.getElementById('mobileLangToggle');
-    let isOpen = false;
+                // Section Droit de la Famille
+                familyLawTitle: "Droit de la Famille",
+                familyLawDesc: {
+                    items: [
+                        "Procédures de divorce et de séparation légale avec accompagnement compatissant",
+                        "Négociations de garde d'enfants, pension alimentaire et arrangements parentaux",
+                        "Modifications et exécution des jugements"
+                    ]
+                },
 
-    // Desktop language toggle
-    languageToggle.addEventListener('click', function(e) {
-        e.stopPropagation();
-        isOpen = !isOpen;
-        this.setAttribute('aria-expanded', isOpen);
-        langDropdown.classList.toggle('hidden');
-        if (!langDropdown.classList.contains('hidden')) {
-            setTimeout(() => {
-                langDropdown.classList.add('visible');
-            }, 10);
-        } else {
-            langDropdown.classList.remove('visible');
-        }
-    });
+                // Section Immigration
+                immigrationTitle: "Immigration",
+                immigrationDesc: {
+                    items: [
+                        "Représentation devant la Section d'appel des réfugiés",
+                        "Demandes et contrôles judiciaires à la Cour fédérale",
+                    ]
+                },
 
-    // Mobile language toggle
-    if (mobileLangToggle && mobileLangDropdown) {
-        mobileLangToggle.addEventListener('click', function(e) {
-            e.stopPropagation();
-            const isExpanded = this.getAttribute('aria-expanded') === 'true';
-            this.setAttribute('aria-expanded', !isExpanded);
-            mobileLangDropdown.classList.toggle('hidden');
-        });
-    }
+                // Section Droit Pénal
+                criminalLawTitle: "Droit Pénal",
+                criminalLawDesc: {
+                    items: [
+                        "Préparation stratégique et collecte de preuves",
+                        "Représentation en cour et négociation de plaidoyers",
+                        "Coordination avec les procédures en droit de la famille",
+                    ]
+                },
 
-    // Handle language selection
-    document.querySelectorAll('[data-lang]').forEach(link => {
-        link.addEventListener('click', function(e) {
-            e.preventDefault();
-            e.stopPropagation();
-            const lang = this.dataset.lang;
-            currentLanguage = lang;
-            
-            // Update both desktop and mobile language indicators
-            document.querySelectorAll('#currentLang, #mobileLang').forEach(el => {
-                if (el) el.textContent = lang.toUpperCase();
-            });
-            
-            // Update content
-            updateContent(lang);
-            
-            // Close dropdowns
-            langDropdown.classList.remove('visible');
-            setTimeout(() => {
-                langDropdown.classList.add('hidden');
-            }, 200);
+                // Formulaire de Contact
+                fullName: "Nom complet *",
+                email: "Adresse courriel *",
+                phone: "Numéro de téléphone",
+                serviceRequired: "Service requis *",
+                message: "Votre message *",
+                sendMessage: "Envoyer le message",
+                selectService: "Sélectionnez un service...",
+                familyLawOption: "Droit de la famille",
+                immigrationOption: "Immigration",
+                criminalLawOption: "Droit pénal",
+                consultationOption: "Consultation générale",
 
-            if (mobileLangDropdown) {
-                mobileLangDropdown.classList.add('hidden');
+                // Validation du Formulaire
+                required: "*",
+                fieldRequired: "Ce champ est obligatoire",
+                invalidEmail: "Veuillez entrer une adresse courriel valide",
+                invalidPhone: "Veuillez entrer un numéro de téléphone valide",
+
+                // Liens Sociaux
+                socialFollow: "Suivez-nous",
+                facebookLabel: "Visitez notre page Facebook",
+                linkedinLabel: "Visitez notre page LinkedIn",
+                facebookText: "Visitez notre page Facebook",
+                linkedinText: "Visitez notre page LinkedIn",
+                founderTitle: "Fondateur",
+                generalInquiries: "Demandes Générales:"
+            },
+            es: {
+                // Navigation and general content
+                home: "Inicio",
+                services: "Servicios",
+                about: "Nosotros",
+                contact: "Contacto",
+                heroTitle: "Vanegas Guzman Inc.",
+                heroSubtitle: "Apoyando tu camino hacia adelante, un paso legal a la vez",
+                scheduleConsultation: "Agendar Consulta",
+                servicesTitle: "Nuestra Experiencia",
+                aboutHeader: "Abogado Rutilio Vanegas Guzman",
+                /* OGL: Just used a translator for this, becuase I am not confident enough in my spanish to translate this. */
+                aboutDescription: "Durante los últimos 11 años, he tenido el honor de representar a miembros de las diversas comunidades de Montreal en derecho de familia, penal y de inmigración. Me dedico a trabajar en colaboración con mis clientes, siempre tomando el tiempo para escuchar y entender sus preocupaciones para ayudar a reducir su estrés. Mi objetivo es proporcionar una representación legal completa al tiempo que ofrece orientación compasiva a través de las complejidades de los procesos legales.",
+
+                // Family Law Section
+                familyLawTitle: "Derecho Familiar",
+                familyLawDesc: {
+                    items: [
+                        "Negociaciones de custodia de menores, pensión alimenticia y acuerdos parentales",
+                        "Órdenes de protección y medidas de emergencia para casos de violencia doméstica",
+                        "Servicios de mediación y resolución de conflictos",
+                    ]
+                },
+
+                // Immigration Section
+                immigrationTitle: "Inmigración",
+                immigrationDesc: {
+                    items: [
+                        "Representación ante la División de Apelaciones para Refugiados (RAD)",
+                        "Solicitudes y revisiones judiciales ante la Corte Federal",
+                    ]
+                },
+
+                // Criminal Law Section
+                criminalLawTitle: "Derecho Penal",
+                criminalLawDesc: {
+                    items: [
+                        "Defensa especializada en casos de violencia conyugal",
+                        "Preparación estratégica de casos y recopilación de pruebas",
+                        "Servicios post-condena y apelaciones"
+                    ]
+                },
+
+                // Contact Form
+                fullName: "Nombre Completo *",
+                email: "Correo Electrónico *",
+                phone: "Número de Teléfono",
+                serviceRequired: "Servicio Requerido *",
+                message: "Su Mensaje *",
+                sendMessage: "Enviar Mensaje",
+                selectService: "Seleccione un servicio...",
+                familyLawOption: "Derecho Familiar",
+                immigrationOption: "Inmigración",
+                criminalLawOption: "Derecho Penal",
+                consultationOption: "Consulta General",
+                contactTitle: "Contáctenos",
+
+                // Form Validation
+                required: "*",
+                fieldRequired: "Este campo es obligatorio",
+                invalidEmail: "Por favor ingrese un correo electrónico válido",
+                invalidPhone: "Por favor ingrese un número de teléfono válido",
+
+                // Social Links
+                socialFollow: "Síguenos",
+                facebookLabel: "Visita nuestra página de Facebook",
+                linkedinLabel: "Visita nuestra página de LinkedIn",
+                facebookText: "Visita nuestra página de Facebook",
+                linkedinText: "Visita nuestra página de LinkedIn",
+                founderTitle: "Fundador",
+                generalInquiries: "Consultas Generales:"
             }
-            
-            // Update ARIA states
-            languageToggle.setAttribute('aria-expanded', 'false');
-            if (mobileLangToggle) {
-                mobileLangToggle.setAttribute('aria-expanded', 'false');
-            }
-            
-            isOpen = false;
-        });
-    });
-
-    // Close dropdowns when clicking outside
-    document.addEventListener('click', function(e) {
-        if (!languageToggle.contains(e.target)) {
-            langDropdown.classList.remove('visible');
-            setTimeout(() => {
-                langDropdown.classList.add('hidden');
-            }, 200);
-            languageToggle.setAttribute('aria-expanded', 'false');
-            isOpen = false;
-        }
-        if (mobileLangDropdown && !mobileLangToggle.contains(e.target)) {
-            mobileLangDropdown.classList.add('hidden');
-            if (mobileLangToggle) {
-                mobileLangToggle.setAttribute('aria-expanded', 'false');
-            }
-        }
-    });
-}
-
-    // Form validation function
-    function validateField(field) {
-    const errorSpan = document.getElementById(`${field.id}Error`);
-    let isValid = true;
-    const t = translations[currentLanguage]; // Get current language translations
-
-    field.setAttribute('aria-invalid', 'false');
-
-    if (field.required && !field.value) {
-        errorSpan.textContent = t.fieldRequired;
-        errorSpan.classList.remove('hidden');
-        field.setAttribute('aria-invalid', 'true');
-        isValid = false;
-    } else if (field.type === 'email' && field.value) {
-        const emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
-        if (!emailPattern.test(field.value)) {
-            errorSpan.textContent = t.invalidEmail;
-            errorSpan.classList.remove('hidden');
-            field.setAttribute('aria-invalid', 'true');
-            isValid = false;
-        }
-    } else if (field.type === 'tel' && field.value) {
-        const phonePattern = /^[0-9]{3}[-. ]?[0-9]{3}[-. ]?[0-9]{4}$/;
-        if (!phonePattern.test(field.value)) {
-            errorSpan.textContent = t.invalidPhone;
-            errorSpan.classList.remove('hidden');
-            field.setAttribute('aria-invalid', 'true');
-            isValid = false;
-        }
-    }
-
-    if (isValid) {
-        errorSpan.classList.add('hidden');
-    }
-
-    return isValid;
-}
-
-    // Form handling
-    if (form) {
-        const fields = form.querySelectorAll('input, select, textarea');
-        
-        // Real-time validation
-        fields.forEach(field => {
-            field.addEventListener('blur', () => validateField(field));
-        });
-
-        // Form submission
-        form.addEventListener('submit', async function(e) {
-            e.preventDefault();
-
-            // Reset status messages
-            formStatus.classList.remove('hidden');
-            loadingState.classList.remove('hidden');
-            successState.classList.add('hidden');
-            errorState.classList.add('hidden');
-
-            // Validate all fields
-            let isValid = true;
-            fields.forEach(field => {
-                if (!validateField(field)) {
-                    isValid = false;
-                }
-            });
-
-            if (!isValid) {
-                loadingState.classList.add('hidden');
-                return;
-            }
-
-            try {
-                const formData = new FormData(form);
-                const response = await fetch('https://formspree.io/f/mvggakzr', {
-                    method: 'POST',
-                    headers: {
-                        'Content-Type': 'application/json',
-                    },
-                    body: JSON.stringify(Object.fromEntries(formData))
-                });
-
-                if (response.ok) {
-                    loadingState.classList.add('hidden');
-                    successState.classList.remove('hidden');
-                    form.reset();
-                    fields.forEach(field => field.setAttribute('aria-invalid', 'false'));
-                } else {
-                    throw new Error('Form submission failed');
-                }
-            } catch (error) {
-                loadingState.classList.add('hidden');
-                errorState.classList.remove('hidden');
-                console.error('Error:', error);
-            }
-        });
-    }
-
-   // Function to update all content based on selected language
-function updateContent(lang) {
-    const t = translations[lang];
-    if (!t) return;
-
-    // Update navigation links (both desktop and mobile)
-    const navLinks = document.querySelectorAll('.nav-link');
-    navLinks.forEach(link => {
-        const href = link.getAttribute('href');
-        const key = href.replace('#', '');
-        if (t[key]) {
-            link.textContent = t[key];
-        }
-    });
-
-    // Update mobile menu links
-    const mobileLinks = document.querySelectorAll('#mobileMenu .nav-link');
-    mobileLinks.forEach(link => {
-        const href = link.getAttribute('href');
-        const key = href.replace('#', '');
-        if (t[key]) {
-            link.textContent = t[key];
-        }
-    });
-
-    // Update hero section and contact title
-    const heroTitle = document.querySelector('.hero-section h1');
-    const heroSubtitle = document.querySelector('.hero-section p');
-    const heroButton = document.querySelector('.hero-section a');
-    const contactTitle = document.querySelector('#contact h2');
-    
-    if (heroTitle) heroTitle.textContent = t.heroTitle;
-    if (heroSubtitle) heroSubtitle.textContent = t.heroSubtitle;
-    if (heroButton) heroButton.textContent = t.scheduleConsultation;
-    if (contactTitle) contactTitle.textContent = t.contactTitle;
-
-    // Update services section
-    const serviceCards = document.querySelectorAll('.service-card');
-    if (serviceCards.length >= 3) {
-        // Update Family Law card
-        const familyCard = serviceCards[0];
-        familyCard.querySelector('h3').textContent = t.familyLawTitle;
-        const familyList = familyCard.querySelector('ul');
-        if (familyList && t.familyLawDesc.items) {
-            familyList.innerHTML = t.familyLawDesc.items
-                .map(item => `<li>• ${item}</li>`)
-                .join('');
-        }
-
-        // Update Immigration card
-        const immigrationCard = serviceCards[1];
-        immigrationCard.querySelector('h3').textContent = t.immigrationTitle;
-        const immigrationList = immigrationCard.querySelector('ul');
-        if (immigrationList && t.immigrationDesc.items) {
-            immigrationList.innerHTML = t.immigrationDesc.items
-                .map(item => `<li>• ${item}</li>`)
-                .join('');
-        }
-
-        // Update Criminal Law card
-        const criminalCard = serviceCards[2];
-        criminalCard.querySelector('h3').textContent = t.criminalLawTitle;
-        const criminalList = criminalCard.querySelector('ul');
-        if (criminalList && t.criminalLawDesc.items) {
-            criminalList.innerHTML = t.criminalLawDesc.items
-                .map(item => `<li>• ${item}</li>`)
-                .join('');
-        }
-    }
-
-    // Update about section
-    const aboutTitle = document.querySelector('#about h2');
-    const aboutDescription = document.querySelector('#about p');
-    
-    if (aboutTitle) aboutTitle.textContent = t.aboutHeader;
-    if (aboutDescription) aboutDescription.textContent = t.aboutDescription;
-
-    // Update contact form
-    const form = document.getElementById('contactForm');
-    if (form) {
-        // Update labels
-        const labels = {
-            'name': t.fullName,
-            'email': t.email,
-            'phone': t.phone,
-            'service': t.serviceRequired,
-            'message': t.message
         };
 
-        Object.entries(labels).forEach(([id, text]) => {
-            const label = form.querySelector(`label[for="${id}"]`);
-            if (label) label.textContent = text;
-        });
+        // Initialize AOS immediately
+        if (typeof AOS !== 'undefined') {
+            AOS.init({
+                duration: 1000,
+                once: true,
+                offset: 100
+            });
+        }
 
-        // Update service select options
-        const serviceSelect = form.querySelector('#service');
-        if (serviceSelect) {
-            serviceSelect.options[0].text = t.selectService;
-            const serviceOptions = {
-                'family-law': t.familyLawOption,
-                'immigration': t.immigrationOption,
-                'criminal-law': t.criminalLawOption,
-                'consultation': t.consultationOption
-            };
+        // Main initialization when DOM is loaded
+        document.addEventListener('DOMContentLoaded', function () {
+            // Cache DOM elements
+            const form = document.getElementById('contactForm');
+            const formStatus = document.getElementById('formStatus');
+            const loadingState = document.getElementById('loadingState');
+            const successState = document.getElementById('successState');
+            const errorState = document.getElementById('errorState');
+            const menuButton = document.getElementById('menuButton');
+            const mobileMenu = document.getElementById('mobileMenu');
+            const languageToggle = document.getElementById('languageToggle');
+            const mobileLangToggle = document.getElementById('mobileLangToggle');
+            const langDropdown = document.getElementById('langDropdown');
+            const currentLang = document.getElementById('currentLang');
+            const mobileLang = document.getElementById('mobileLang');
+            const mobileLangDropdown = document.getElementById('mobileLangDropdown');
+            let currentLanguage = 'en';
 
-            Array.from(serviceSelect.options).forEach(option => {
-                if (serviceOptions[option.value]) {
-                    option.text = serviceOptions[option.value];
+            // Mobile menu functionality
+            document.addEventListener('DOMContentLoaded', function () {
+                const menuButton = document.getElementById('menuButton');
+                const mobileMenu = document.getElementById('mobileMenu');
+                const body = document.body;
+
+                if (menuButton && mobileMenu) {
+                    menuButton.addEventListener('click', function () {
+                        const isExpanded = this.getAttribute('aria-expanded') === 'true';
+                        this.setAttribute('aria-expanded', !isExpanded);
+
+                        if (!isExpanded) {
+                            // Show menu
+                            mobileMenu.style.display = 'block';
+                            requestAnimationFrame(() => {
+                                mobileMenu.style.transform = 'translateX(0)';
+                            });
+                            body.style.overflow = 'hidden';
+                        } else {
+                            // Hide menu
+                            mobileMenu.style.transform = 'translateX(100%)';
+                            body.style.overflow = '';
+                            setTimeout(() => {
+                                mobileMenu.style.display = 'none';
+                            }, 300);
+                        }
+                    });
+
+                    // Close menu when clicking outside
+                    document.addEventListener('click', function (e) {
+                        if (!mobileMenu.contains(e.target) && !menuButton.contains(e.target)) {
+                            menuButton.setAttribute('aria-expanded', 'false');
+                            mobileMenu.style.transform = 'translateX(100%)';
+                            body.style.overflow = '';
+                            setTimeout(() => {
+                                mobileMenu.style.display = 'none';
+                            }, 300);
+                        }
+                    });
+
+                    // Prevent menu clicks from closing
+                    mobileMenu.addEventListener('click', function (e) {
+                        e.stopPropagation();
+                    });
                 }
             });
-        }
 
-        // Update submit button
-        const submitButton = form.querySelector('button[type="submit"]');
-        if (submitButton) submitButton.textContent = t.sendMessage;
-    }
+            // Language toggle functionality
+            if (languageToggle && langDropdown) {
+                const mobileLangToggle = document.getElementById('mobileLangToggle');
+                let isOpen = false;
 
-    // Update footer content
-    const footerSocialLinks = document.querySelectorAll('.social-links a');
-    footerSocialLinks.forEach(link => {
-        if (link.href.includes('facebook')) {
-            const span = link.querySelector('span');
-            if (span) span.textContent = t.facebookText;
-        } else if (link.href.includes('linkedin')) {
-            const span = link.querySelector('span');
-            if (span) span.textContent = t.linkedinText;
-        }
-    });
+                // Desktop language toggle
+                languageToggle.addEventListener('click', function (e) {
+                    e.stopPropagation();
+                    isOpen = !isOpen;
+                    this.setAttribute('aria-expanded', isOpen);
+                    langDropdown.classList.toggle('hidden');
+                    if (!langDropdown.classList.contains('hidden')) {
+                        setTimeout(() => {
+                            langDropdown.classList.add('visible');
+                        }, 10);
+                    } else {
+                        langDropdown.classList.remove('visible');
+                    }
+                });
 
-    // Update footer info section with precise element targeting
-    const footerInfoSection = document.querySelector('.mt-6.text-center');
-    if (footerInfoSection) {
-        // Get all paragraphs in the info section
-        const paragraphs = footerInfoSection.querySelectorAll('p');
-        
-        // Update specific elements by their position and content type
-        paragraphs.forEach((p, index) => {
-            // Skip the name (first paragraph)
-            if (index === 1) {
-                // Update founder title
-                p.textContent = t.founderTitle;
-            } else if (index === 2) {
-                // Update general inquiries label
-                p.textContent = t.generalInquiries;
-            } else if (index === 3) {
-                // Ensure email stays unchanged
-                p.textContent = 'info@vanegasguzmaninc.com';
+                // Mobile language toggle
+                if (mobileLangToggle && mobileLangDropdown) {
+                    mobileLangToggle.addEventListener('click', function (e) {
+                        e.stopPropagation();
+                        const isExpanded = this.getAttribute('aria-expanded') === 'true';
+                        this.setAttribute('aria-expanded', !isExpanded);
+                        mobileLangDropdown.classList.toggle('hidden');
+                    });
+                }
+
+                // Handle language selection
+                document.querySelectorAll('[data-lang]').forEach(link => {
+                    link.addEventListener('click', function (e) {
+                        e.preventDefault();
+                        e.stopPropagation();
+                        const lang = this.dataset.lang;
+                        currentLanguage = lang;
+
+                        // Update both desktop and mobile language indicators
+                        document.querySelectorAll('#currentLang, #mobileLang').forEach(el => {
+                            if (el) el.textContent = lang.toUpperCase();
+                        });
+
+                        // Update content
+                        updateContent(lang);
+
+                        // Close dropdowns
+                        langDropdown.classList.remove('visible');
+                        setTimeout(() => {
+                            langDropdown.classList.add('hidden');
+                        }, 200);
+
+                        if (mobileLangDropdown) {
+                            mobileLangDropdown.classList.add('hidden');
+                        }
+
+                        // Update ARIA states
+                        languageToggle.setAttribute('aria-expanded', 'false');
+                        if (mobileLangToggle) {
+                            mobileLangToggle.setAttribute('aria-expanded', 'false');
+                        }
+
+                        isOpen = false;
+                    });
+                });
+
+                // Close dropdowns when clicking outside
+                document.addEventListener('click', function (e) {
+                    if (!languageToggle.contains(e.target)) {
+                        langDropdown.classList.remove('visible');
+                        setTimeout(() => {
+                            langDropdown.classList.add('hidden');
+                        }, 200);
+                        languageToggle.setAttribute('aria-expanded', 'false');
+                        isOpen = false;
+                    }
+                    if (mobileLangDropdown && !mobileLangToggle.contains(e.target)) {
+                        mobileLangDropdown.classList.add('hidden');
+                        if (mobileLangToggle) {
+                            mobileLangToggle.setAttribute('aria-expanded', 'false');
+                        }
+                    }
+                });
             }
-        });
-    }
-}
 
-// Initialize language switching functionality
-document.addEventListener('DOMContentLoaded', function() {
-    // Set up language toggle handlers
-    const setupLanguageButtons = () => {
-        document.querySelectorAll('[data-lang]').forEach(button => {
-            button.addEventListener('click', function(e) {
-                e.preventDefault();
-                const lang = this.getAttribute('data-lang');
-                
-                // Update language indicators
-                document.querySelectorAll('#currentLang, #mobileLang').forEach(el => {
-                    if (el) el.textContent = lang.toUpperCase();
+            // Form validation function
+            function validateField(field) {
+                const errorSpan = document.getElementById(`${field.id}Error`);
+                let isValid = true;
+                const t = translations[currentLanguage]; // Get current language translations
+
+                field.setAttribute('aria-invalid', 'false');
+
+                if (field.required && !field.value) {
+                    errorSpan.textContent = t.fieldRequired;
+                    errorSpan.classList.remove('hidden');
+                    field.setAttribute('aria-invalid', 'true');
+                    isValid = false;
+                } else if (field.type === 'email' && field.value) {
+                    const emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
+                    if (!emailPattern.test(field.value)) {
+                        errorSpan.textContent = t.invalidEmail;
+                        errorSpan.classList.remove('hidden');
+                        field.setAttribute('aria-invalid', 'true');
+                        isValid = false;
+                    }
+                } else if (field.type === 'tel' && field.value) {
+                    const phonePattern = /^[0-9]{3}[-. ]?[0-9]{3}[-. ]?[0-9]{4}$/;
+                    if (!phonePattern.test(field.value)) {
+                        errorSpan.textContent = t.invalidPhone;
+                        errorSpan.classList.remove('hidden');
+                        field.setAttribute('aria-invalid', 'true');
+                        isValid = false;
+                    }
+                }
+
+                if (isValid) {
+                    errorSpan.classList.add('hidden');
+                }
+
+                return isValid;
+            }
+
+            // Form handling
+            if (form) {
+                const fields = form.querySelectorAll('input, select, textarea');
+
+                // Real-time validation
+                fields.forEach(field => {
+                    field.addEventListener('blur', () => validateField(field));
                 });
-                
-                // Update content
-                updateContent(lang);
-                
-                // Close dropdowns
-                document.querySelectorAll('#langDropdown, #mobileLangDropdown').forEach(dropdown => {
-                    dropdown.classList.add('hidden');
+
+                // Form submission
+                form.addEventListener('submit', async function (e) {
+                    e.preventDefault();
+
+                    // Reset status messages
+                    formStatus.classList.remove('hidden');
+                    loadingState.classList.remove('hidden');
+                    successState.classList.add('hidden');
+                    errorState.classList.add('hidden');
+
+                    // Validate all fields
+                    let isValid = true;
+                    fields.forEach(field => {
+                        if (!validateField(field)) {
+                            isValid = false;
+                        }
+                    });
+
+                    if (!isValid) {
+                        loadingState.classList.add('hidden');
+                        return;
+                    }
+
+                    try {
+                        const formData = new FormData(form);
+                        const response = await fetch('https://formspree.io/f/mvggakzr', {
+                            method: 'POST',
+                            headers: {
+                                'Content-Type': 'application/json',
+                            },
+                            body: JSON.stringify(Object.fromEntries(formData))
+                        });
+
+                        if (response.ok) {
+                            loadingState.classList.add('hidden');
+                            successState.classList.remove('hidden');
+                            form.reset();
+                            fields.forEach(field => field.setAttribute('aria-invalid', 'false'));
+                        } else {
+                            throw new Error('Form submission failed');
+                        }
+                    } catch (error) {
+                        loadingState.classList.add('hidden');
+                        errorState.classList.remove('hidden');
+                        console.error('Error:', error);
+                    }
                 });
-                
-                // Update ARIA states
-                document.querySelectorAll('#languageToggle, #mobileLangToggle').forEach(toggle => {
-                    toggle.setAttribute('aria-expanded', 'false');
+            }
+
+            // Function to update all content based on selected language
+            function updateContent(lang) {
+                const t = translations[lang];
+                if (!t) return;
+
+                // Update navigation links (both desktop and mobile)
+                const navLinks = document.querySelectorAll('.nav-link');
+                navLinks.forEach(link => {
+                    const href = link.getAttribute('href');
+                    const key = href.replace('#', '');
+                    if (t[key]) {
+                        link.textContent = t[key];
+                    }
+                });
+
+                // Update mobile menu links
+                const mobileLinks = document.querySelectorAll('#mobileMenu .nav-link');
+                mobileLinks.forEach(link => {
+                    const href = link.getAttribute('href');
+                    const key = href.replace('#', '');
+                    if (t[key]) {
+                        link.textContent = t[key];
+                    }
+                });
+
+                // Update hero section and contact title
+                const heroTitle = document.querySelector('.hero-section h1');
+                const heroSubtitle = document.querySelector('.hero-section p');
+                const heroButton = document.querySelector('.hero-section a');
+                const contactTitle = document.querySelector('#contact h2');
+
+                if (heroTitle) heroTitle.textContent = t.heroTitle;
+                if (heroSubtitle) heroSubtitle.textContent = t.heroSubtitle;
+                if (heroButton) heroButton.textContent = t.scheduleConsultation;
+                if (contactTitle) contactTitle.textContent = t.contactTitle;
+
+                // Update services section
+                const serviceCards = document.querySelectorAll('.service-card');
+                if (serviceCards.length >= 3) {
+                    // Update Family Law card
+                    const familyCard = serviceCards[0];
+                    familyCard.querySelector('h3').textContent = t.familyLawTitle;
+                    const familyList = familyCard.querySelector('ul');
+                    if (familyList && t.familyLawDesc.items) {
+                        familyList.innerHTML = t.familyLawDesc.items
+                            .map(item => `<li>• ${item}</li>`)
+                            .join('');
+                    }
+
+                    // Update Immigration card
+                    const immigrationCard = serviceCards[1];
+                    immigrationCard.querySelector('h3').textContent = t.immigrationTitle;
+                    const immigrationList = immigrationCard.querySelector('ul');
+                    if (immigrationList && t.immigrationDesc.items) {
+                        immigrationList.innerHTML = t.immigrationDesc.items
+                            .map(item => `<li>• ${item}</li>`)
+                            .join('');
+                    }
+
+                    // Update Criminal Law card
+                    const criminalCard = serviceCards[2];
+                    criminalCard.querySelector('h3').textContent = t.criminalLawTitle;
+                    const criminalList = criminalCard.querySelector('ul');
+                    if (criminalList && t.criminalLawDesc.items) {
+                        criminalList.innerHTML = t.criminalLawDesc.items
+                            .map(item => `<li>• ${item}</li>`)
+                            .join('');
+                    }
+                }
+
+                // Update about section
+                const aboutTitle = document.querySelector('#about h2');
+                const aboutDescription = document.querySelector('#about p');
+
+                if (aboutTitle) aboutTitle.textContent = t.aboutHeader;
+                if (aboutDescription) aboutDescription.textContent = t.aboutDescription;
+
+                // Update contact form
+                const form = document.getElementById('contactForm');
+                if (form) {
+                    // Update labels
+                    const labels = {
+                        'name': t.fullName,
+                        'email': t.email,
+                        'phone': t.phone,
+                        'service': t.serviceRequired,
+                        'message': t.message
+                    };
+
+                    Object.entries(labels).forEach(([id, text]) => {
+                        const label = form.querySelector(`label[for="${id}"]`);
+                        if (label) label.textContent = text;
+                    });
+
+                    // Update service select options
+                    const serviceSelect = form.querySelector('#service');
+                    if (serviceSelect) {
+                        serviceSelect.options[0].text = t.selectService;
+                        const serviceOptions = {
+                            'family-law': t.familyLawOption,
+                            'immigration': t.immigrationOption,
+                            'criminal-law': t.criminalLawOption,
+                            'consultation': t.consultationOption
+                        };
+
+                        Array.from(serviceSelect.options).forEach(option => {
+                            if (serviceOptions[option.value]) {
+                                option.text = serviceOptions[option.value];
+                            }
+                        });
+                    }
+
+                    // Update submit button
+                    const submitButton = form.querySelector('button[type="submit"]');
+                    if (submitButton) submitButton.textContent = t.sendMessage;
+                }
+
+                // Update footer content
+                const footerSocialLinks = document.querySelectorAll('.social-links a');
+                footerSocialLinks.forEach(link => {
+                    if (link.href.includes('facebook')) {
+                        const span = link.querySelector('span');
+                        if (span) span.textContent = t.facebookText;
+                    } else if (link.href.includes('linkedin')) {
+                        const span = link.querySelector('span');
+                        if (span) span.textContent = t.linkedinText;
+                    }
+                });
+
+                // Update footer info section with precise element targeting
+                const footerInfoSection = document.querySelector('.mt-6.text-center');
+                if (footerInfoSection) {
+                    // Get all paragraphs in the info section
+                    const paragraphs = footerInfoSection.querySelectorAll('p');
+
+                    // Update specific elements by their position and content type
+                    paragraphs.forEach((p, index) => {
+                        // Skip the name (first paragraph)
+                        if (index === 1) {
+                            // Update founder title
+                            p.textContent = t.founderTitle;
+                        } else if (index === 2) {
+                            // Update general inquiries label
+                            p.textContent = t.generalInquiries;
+                        } else if (index === 3) {
+                            // Ensure email stays unchanged
+                            p.textContent = 'info@vanegasguzmaninc.com';
+                        }
+                    });
+                }
+            }
+
+            // Initialize language switching functionality
+            document.addEventListener('DOMContentLoaded', function () {
+                // Set up language toggle handlers
+                const setupLanguageButtons = () => {
+                    document.querySelectorAll('[data-lang]').forEach(button => {
+                        button.addEventListener('click', function (e) {
+                            e.preventDefault();
+                            const lang = this.getAttribute('data-lang');
+
+                            // Update language indicators
+                            document.querySelectorAll('#currentLang, #mobileLang').forEach(el => {
+                                if (el) el.textContent = lang.toUpperCase();
+                            });
+
+                            // Update content
+                            updateContent(lang);
+
+                            // Close dropdowns
+                            document.querySelectorAll('#langDropdown, #mobileLangDropdown').forEach(dropdown => {
+                                dropdown.classList.add('hidden');
+                            });
+
+                            // Update ARIA states
+                            document.querySelectorAll('#languageToggle, #mobileLangToggle').forEach(toggle => {
+                                toggle.setAttribute('aria-expanded', 'false');
+                            });
+                        });
+                    });
+                };
+
+                setupLanguageButtons();
+
+                // Set up desktop language toggle
+                const languageToggle = document.getElementById('languageToggle');
+                const langDropdown = document.getElementById('langDropdown');
+
+                if (languageToggle && langDropdown) {
+                    languageToggle.addEventListener('click', function (e) {
+                        e.stopPropagation();
+                        const isExpanded = this.getAttribute('aria-expanded') === 'true';
+                        this.setAttribute('aria-expanded', !isExpanded);
+                        langDropdown.classList.toggle('hidden');
+                    });
+                }
+
+                // Set up mobile language toggle
+                const mobileLangToggle = document.getElementById('mobileLangToggle');
+                const mobileLangDropdown = document.getElementById('mobileLangDropdown');
+
+                if (mobileLangToggle && mobileLangDropdown) {
+                    mobileLangToggle.addEventListener('click', function (e) {
+                        e.stopPropagation();
+                        const isExpanded = this.getAttribute('aria-expanded') === 'true';
+                        this.setAttribute('aria-expanded', !isExpanded);
+                        mobileLangDropdown.classList.toggle('hidden');
+                    });
+                }
+
+                // Close dropdowns when clicking outside
+                document.addEventListener('click', function (e) {
+                    if (langDropdown && !languageToggle?.contains(e.target)) {
+                        langDropdown.classList.add('hidden');
+                        languageToggle?.setAttribute('aria-expanded', 'false');
+                    }
+                    if (mobileLangDropdown && !mobileLangToggle?.contains(e.target)) {
+                        mobileLangDropdown.classList.add('hidden');
+                        mobileLangToggle?.setAttribute('aria-expanded', 'false');
+                    }
                 });
             });
         });
-    };
 
-    setupLanguageButtons();
-
-    // Set up desktop language toggle
-    const languageToggle = document.getElementById('languageToggle');
-    const langDropdown = document.getElementById('langDropdown');
-    
-    if (languageToggle && langDropdown) {
-        languageToggle.addEventListener('click', function(e) {
-            e.stopPropagation();
-            const isExpanded = this.getAttribute('aria-expanded') === 'true';
-            this.setAttribute('aria-expanded', !isExpanded);
-            langDropdown.classList.toggle('hidden');
-        });
-    }
-
-    // Set up mobile language toggle
-    const mobileLangToggle = document.getElementById('mobileLangToggle');
-    const mobileLangDropdown = document.getElementById('mobileLangDropdown');
-    
-    if (mobileLangToggle && mobileLangDropdown) {
-        mobileLangToggle.addEventListener('click', function(e) {
-            e.stopPropagation();
-            const isExpanded = this.getAttribute('aria-expanded') === 'true';
-            this.setAttribute('aria-expanded', !isExpanded);
-            mobileLangDropdown.classList.toggle('hidden');
-        });
-    }
-
-    // Close dropdowns when clicking outside
-    document.addEventListener('click', function(e) {
-        if (langDropdown && !languageToggle?.contains(e.target)) {
-            langDropdown.classList.add('hidden');
-            languageToggle?.setAttribute('aria-expanded', 'false');
-        }
-        if (mobileLangDropdown && !mobileLangToggle?.contains(e.target)) {
-            mobileLangDropdown.classList.add('hidden');
-            mobileLangToggle?.setAttribute('aria-expanded', 'false');
-        }
-    });
-});
-});
-
-</script>
+    </script>
 </body>
+
 </html>
