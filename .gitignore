@@ -1,5 +1,5 @@
 .vs/
-testsrv/
+staging/
 node_modules/
 package.json
 package-lock.json
