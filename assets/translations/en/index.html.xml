@@ -42,7 +42,7 @@
         </p>
     </mapping>
     <mapping for="contact.title">Contact Us</mapping>
-    <mapping for="contact.full_name">Full Name *</mapping>
+    <mapping for="contact.full_name">Full Name</mapping>
     <mapping for="contact.email">Email Address</mapping>
     <mapping for="contact.phone_number">Phone Number</mapping>
     <mapping for="contact.service_required">Service Required</mapping>
