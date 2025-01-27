@@ -5,7 +5,7 @@
     <mapping for="navigation.services">Services</mapping>
     <mapping for="navigation.about">À propos</mapping>
     <mapping for="vitrine.title">Vanegas Guzman Inc.</mapping>
-    <mapping for="vitrine.subtitle">Soutenir votre à travers le processus juridique, une étape à la fois</mapping>
+    <mapping for="vitrine.subtitle">Vous soutenir une étape à la fois</mapping>
     <mapping for="services.title">Notre expertise</mapping>
     <mapping for="services.family_law">
         <h2>Droit de la famille</h2>
