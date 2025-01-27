@@ -9,6 +9,7 @@
 html, body {
 	width: 100%;
 	margin: 0px;
+    transition: font-size 0.1s ease-in-out;
 }
 
 a {
@@ -47,11 +48,14 @@ label:has(+ *[required])::after {
     color: red;
 }
 
+.invalidity-flag, p, label, input, select, textarea {
+    font-size: 1rem;
+}
+
 .invalidity-flag, .error, .success {
     margin: 6px 0 6px 0;
     border-radius: 6px;
     padding: 6px;
-    font-size: 1rem;
 }
 
 .invalidity-flag, .error {
@@ -70,9 +74,9 @@ label:has(+ *[required])::after {
     display: none;
 }
 
-input:invalid + .invalidity-flag,
-select:invalid + .invalidity-flag,
-textarea:invalid + .invalidity-flag,
+input[touched]:invalid + .invalidity-flag,
+select[touched]:invalid + .invalidity-flag,
+textarea[touched]:invalid + .invalidity-flag,
 .result[show] {
     display: block;
 }
@@ -115,9 +119,13 @@ textarea:invalid + .invalidity-flag,
 	margin: auto;
 	padding: 8px;
 	font-family: "Fira Sans", sans-serif;
-	font-size: 16px;
+	font-size: 1rem;
 }
 
+.p-12 { padding: 12px; }
+
+.mt-6 { margin-top: 6px; }
+.mb-6 { margin-bottom: 6px; }
 .my-0, .mt-0 { margin-top: 0; }
 .my-0, .mb-0 { margin-bottom: 0; }
 
@@ -179,11 +187,15 @@ textarea:invalid + .invalidity-flag,
         flex-grow: 1;
     }
 }
-/* Desktop: WXGA */
-@media screen and (min-width: 1280px) {
+
+/* Desktop: WQXGA/WQHD */
+@media screen and (min-width: 2560px) {
+    html {
+        font-size: 24px;
+    }
     .layout-column > * {
         min-width: 0;
-        max-width: 1280px;
+        max-width: 1600px;
     }
 }
 
@@ -267,8 +279,10 @@ button, .button {
     border-radius: 6px;
     background-color: var(--ym-background-medium);
     color: var(--ym-foreground-light);
-    text-decoration: none;
     box-shadow: 6px 12px 10px hsla(0, 0%, 0%, 12%);
+
+    font-size: 1rem;
+    text-decoration: none;
     transition: background-color 0.1s ease-in-out;
 }
     button:hover, .button:hover {
@@ -332,18 +346,18 @@ button, .button {
         text-align: center;
     }
     .vitrine h1 {
-        margin-bottom: 0.2rem;
+        margin-bottom: 0.25rem;
         font-family: "Playfair Display", serif;
         font-weight: bold;
         font-size: 3rem;
         line-height: 1.2;
     }
     .vitrine p {
-        margin-top: 0;
-        margin-bottom: 0.4rem;
+        margin-top: 0.125rem;
+        margin-bottom: 1.25rem;
         font-family: "Fira Sans", sans-serif;
         font-weight: normal;
-        font-size: 1.25rem;
+        font-size: 1.5rem;
     }
     .vitrine .button {
         font-family: "Fira Sans", sans-serif;

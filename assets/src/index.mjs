@@ -33,6 +33,13 @@ document.addEventListener("DOMContentLoaded", async () => {
 	const form = document.getElementById("contact-form"),
 		formerror = document.getElementById("contact-form-error"),
 		formsuccess = document.getElementById("contact-form-success"); // <-- TODO: Replace this.
+
+	form.querySelectorAll("input, select, textarea").forEach((element) =>
+		element.addEventListener("input", function (event) {
+			this.setAttribute("touched", "");
+		})
+	);
+
 	form.addEventListener("submit", async function (event) {
 		event.preventDefault();
 

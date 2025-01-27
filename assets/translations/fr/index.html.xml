@@ -64,7 +64,7 @@
     <mapping for="invalid.email">Ce champs est requis; veuillez entrer une addresse courriel valide (e.g. "example@example.org").</mapping>
     <mapping for="invalid.phone">Veuillez entrer un numéro téléphone valide.</mapping>
     <mapping for="invalid.service">Veuillez selectionner un service.</mapping>
-    <mapping for="invalid.message">Veuillez Composer un message.</mapping>
+    <mapping for="invalid.message">Veuillez composer un message.</mapping>
     <mapping for="success.message_sent">Le message était envoyé.</mapping>
     <mapping for="failed.message_send">Le message n'a pas pu être envoyé.</mapping>
 </mappings>

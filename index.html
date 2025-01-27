@@ -29,7 +29,7 @@
                 <div class="dropdown container" id="language-switch" aria-label="Selectionnez une langue"
                     data-selected="FR">
                     <button class="palette-0" type="button" aria-expanded="false">
-                        <span id="current">--</span>
+                        <span id="current">N/I</span>
                         <svg width="16" height="10" viewBox="0 0 16 10" fill="none" stroke="currentColor"
                             style="margin-left: 2px;">
                             <path d="M 2,2 8,8 14,2" stroke-width=2 id="path1" />
@@ -71,7 +71,7 @@
             </section>
             <h1 data-use="about.title">N/I</h1>
             <section class="layout-row container" id="about">
-                <div class="d-sx-4">
+                <div class="d-sx-4 p-12">
                     <img class="imgfit" src="./assets/images/600x400.png" alt="">
                 </div>
                 <div class="d-sx-4" data-use="about">
@@ -102,7 +102,7 @@
                         </div>
                         <div>
                             <label for="phone" data-use="contact.phone_number">N/I</label>
-                            <input class="b-w-full" type="tel" name="phone" pattern="^\([0-9]+\)\s[0-9]+-[0-9]+$"
+                            <input class="b-w-full" type="tel" name="phone" pattern="^\([0-9]+\)\s[0-9]{3}-[0-9]{4}$"
                                 placeholder="(514) ...-...." id="phone">
                             <div class="invalidity-flag" data-use="invalid.phone">N/I</div>
                         </div>
@@ -163,8 +163,8 @@
             </div>
             <div class="layout-col-4">
                 <h3>Bureau Pointe-Claire</h3>
-                <p class="my-0">4ème Étage</p>
-                <p class="mb-0">6500, Chemin de Service S</p>
+                <p class="mb-0">4ème Étage</p>
+                <p class="my-0">6500, Chemin de Service S</p>
                 <p class="mt-0">Pointe-Claire, QC H9R 0A5</p>
             </div>
         </main>
