@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mappings>
+    <!-- The mapping ids may seem to have namespace, but it is merely symbolic. -->
+    <mapping for="navigation.home">Home</mapping>
+    <mapping for="navigation.services">Services</mapping>
+    <mapping for="navigation.about">About</mapping>
+    <mapping for="vitrine.title">Vanegas Guzman Inc.</mapping>
+    <mapping for="vitrine.subtitle">Supporting your path forward, one legal step at a time</mapping>
+    <mapping for="services.title">Our Expertise</mapping>
+    <mapping for="services.family_law">
+        <h2>Family Law</h2>
+        <ul>
+            <li>Divorce and legal separation proceedings with compassionate guidance</li>
+            <li>Child custody, support, and parenting arrangement negotiations</li>
+            <li>Post-judgment modifications and enforcemen</li>
+        </ul>
+    </mapping>
+    <mapping for="services.immigration_law">
+        <h2>Immigration</h2>
+        <ul>
+            <li>Asylum Claim Representation</li>
+            <li>Refugee Appeals Division representation</li>
+            <li>Federal Court applications for leave and judicial reviews in refugee claims</li>
+        </ul>
+    </mapping>
+    <mapping for="services.criminal_law">
+        <h2>Droit criminel</h2>
+        <ul>
+            <li>Strategic case preparation and evidence gathering</li>
+            <li>Court representation and plea negotiations</li>
+            <li>Coordination with family law proceedings</li>
+        </ul>
+    </mapping>
+    <mapping for="about.title">About</mapping>
+    <mapping for="about">
+        <h2>Rutilio Vanegas Guzman</h2>
+        <p>
+            For the past 11 years, I have had the honor of representing members of Montreal's diverse communities in family, 
+            criminal, and immigration law. I am dedicated to working collaboratively with my clients, 
+            always taking the time to truly listen and understand their concerns to help reduce their stress. 
+            My goal is to provide thorough legal representation while offering compassionate guidance through the complexities of legal processes.
+        </p>
+    </mapping>
+    <mapping for="contact.title">Contact Us</mapping>
+    <mapping for="contact.full_name">Full Name *</mapping>
+    <mapping for="contact.email">Email Address</mapping>
+    <mapping for="contact.phone_number">Phone Number</mapping>
+    <mapping for="contact.service_required">Service Required</mapping>
+    <mapping for="contact.message">Your Message</mapping>
+    <mapping for="contact.service_options"><!-- TODO --></mapping>
+    <mapping for="action.send_message">Send Message</mapping>
+    <mapping for="action.schedule_consulation">Schedule Consulation</mapping>
+    <mapping for="form.field_required">This field is required</mapping>
+    <mapping for="form.invalid_email">Please enter a valid email address</mapping>
+    <mapping for="form.invalid_phone_number">Please enter a valid phone number</mapping>
+    <mapping for="social.follow">Follow Us</mapping>
+    <mapping for="social.facebook">Visit our Facebook page</mapping>
+    <mapping for="social.linkedin">Visit our Linked In page</mapping>
+    <mapping for="social.founder">Founder</mapping>
+    <mapping for="social.general">General Inquiries</mapping>
+    <mapping for="invalid.name">This field is required.</mapping>
+    <mapping for="invalid.email">This field is required; please enter a valid email address (e.g. "example@example.org").</mapping>
+    <mapping for="invalid.phone">Please enter a valid phone number.</mapping>
+    <mapping for="invalid.service">Please select a service.</mapping>
+    <mapping for="invalid.message">Please compose a message.</mapping>
+    <mapping for="success.message_sent">Message sent.</mapping>
+    <mapping for="failed.message_send">The message could not sent.</mapping>
+</mappings>

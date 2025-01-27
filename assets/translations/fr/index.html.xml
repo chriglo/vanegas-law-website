@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mappings>
+    <!-- The dots in the mapping ids are currently only symbolic. -->
+    <mapping for="navigation.home">Acceuil</mapping>
+    <mapping for="navigation.services">Services</mapping>
+    <mapping for="navigation.about">À propos</mapping>
+    <mapping for="vitrine.title">Vanegas Guzman Inc.</mapping>
+    <mapping for="vitrine.subtitle">Soutenir votre à travers le processus juridique, une étape à la fois</mapping>
+    <mapping for="services.title">Notre expertise</mapping>
+    <mapping for="services.family_law">
+        <h2>Droit de la famille</h2>
+        <ul>
+            <li>Procédures de divorce et de séparation légale avec accompagnement compatissant</li>
+            <li>Négociations de garde d'enfants, pension alimentaire et arrangements parentaux</li>
+            <li>Modifications et exécution des jugements</li>
+        </ul>
+    </mapping>
+    <mapping for="services.immigration_law">
+        <h2>Immigration</h2>
+        <ul>
+            <li>Représentation de la demande d'asile</li>
+            <li>Représentation devant la Section d'appel des réfugiés</li>
+            <li>Demandes et contrôles judiciaires à la Cour fédérale</li>
+        </ul>
+    </mapping>
+    <mapping for="services.criminal_law">
+        <h2>Droit criminel</h2>
+        <ul>
+            <li>Préparation stratégique et collecte de preuves</li>
+            <li>Représentation en cour et négociation de plaidoyers</li>
+            <li>Coordination avec les procédures en droit de la famille</li>
+        </ul>
+    </mapping>
+    <mapping for="about.title">À propos</mapping>
+    <mapping for="about">
+        <h2>Me Rutilio Vanegas Guzman</h2>
+        <p>
+            Pour les dernières 11 ans, j'étais doué de l'honneur de présenter les membres des diverse communautés de Grand Montréal;
+            en matières familiales, criminelle et d'immigration. 
+            En outre de cela, je suis dévoué à travailler collaborativement avec mes clients et en prenant toujours le temps à écouter et
+            à comprendre leurs inquiétudes afin d'aider à réduire leur stress. Mon objectif s'agit d'offrir une représentation légale mineutieuse, 
+            tout en offrant guidance compatissant sur les complexités des procès légales.
+        </p>
+    </mapping>
+    <mapping for="contact.title">Contactez-nous</mapping>
+    <mapping for="contact.full_name">Nom complet</mapping>
+    <mapping for="contact.email">Addresse courriel</mapping>
+    <mapping for="contact.phone_number">Numéro de téléphone</mapping>
+    <mapping for="contact.service_required">Service requis</mapping>
+    <mapping for="contact.message">Votre message</mapping>
+    <mapping for="action.send_message">Envoyer le message</mapping>
+    <mapping for="action.schedule_consulation">Prendre rendez-vous</mapping>
+    <mapping for="social.follow">Suivez-nous</mapping>
+    <mapping for="social.facebook">Visitez notre page sur Facebook</mapping>
+    <mapping for="social.linkedin">Visitez notre page sur Linked In</mapping>
+    <mapping for="social.founder">Fondateur</mapping>
+    <mapping for="social.general">Renseignements genérales</mapping>
+    <mapping for="service_options.select">Selectionnez un service...</mapping>
+    <mapping for="service_options.family_law">Droit de famille</mapping>
+    <mapping for="service_options.immigration">Immigration</mapping>
+    <mapping for="service_options.criminal_law">Droit criminel</mapping>
+    <mapping for="service_options.consultation">Consultation</mapping>
+    <mapping for="invalid.name">Ce champs est requis.</mapping>
+    <mapping for="invalid.email">Ce champs est requis; veuillez entrer une addresse courriel valide (e.g. "example@example.org").</mapping>
+    <mapping for="invalid.phone">Veuillez entrer un numéro téléphone valide.</mapping>
+    <mapping for="invalid.service">Veuillez selectionner un service.</mapping>
+    <mapping for="invalid.message">Veuillez Composer un message.</mapping>
+    <mapping for="success.message_sent">Le message était envoyé.</mapping>
+    <mapping for="failed.message_send">Le message n'a pas pu être envoyé.</mapping>
+</mappings>

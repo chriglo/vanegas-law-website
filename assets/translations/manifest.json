@@ -1,0 +1,12 @@
+{
+	"languages": [
+		{ "locale": "en", "display": "English" },
+		{ "locale": "fr", "display": "Français" },
+		{ "locale": "es", "display": "Español" }
+	],
+    "overrides": {
+        "/": "/index.html",
+		"/index.html.html": "/index.html"
+    },
+    "default": "fr"
+}

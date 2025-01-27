@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="TODO">
+    <title>Vanegas Guzman Inc. - Services Légals Montréalais</title>
+
+    <!-- External Dependencies -->
+    <!-- None, for now -->
+
+    <!-- Internal Dependencies -->
+    <link rel="icon" type="image/svg+xml" href="./assets/icons/favico.svg">
+    <link rel="stylesheet" href="./assets/index.css">
+    <script src="./assets/src/index.mjs" type="module"></script>
+</head>
+
+<body class="palette-0 fg-light">
+    <!-- Navigation Bar -->
+    <header class="sitewide fg-light ac-light">
+        <nav class="sitewide container ef-glass" role="navigation" aria-label="Navigation principal">
+            <div id="title">
+                <img src="./assets/icons/favico.svg" alt="" height="32">
+                <div>Vanegas Guzman Inc.</div>
+            </div>
+            <main id="sitewide-nav-body">
+                <!-- Going to move this functionality to a custom element -->
+                <div class="dropdown container" id="language-switch" aria-label="Selectionnez une langue"
+                    data-selected="FR">
+                    <button class="palette-0" type="button" aria-expanded="false">
+                        <span id="current">--</span>
+                        <svg width="16" height="10" viewBox="0 0 16 10" fill="none" stroke="currentColor"
+                            style="margin-left: 2px;">
+                            <path d="M 2,2 8,8 14,2" stroke-width=2 id="path1" />
+                        </svg>
+                    </button>
+                    <div class="dropdown list bg-0-lg ac-0 fg-0">
+                    </div>
+                </div>
+            </main>
+        </nav>
+    </header>
+    <!-- Main Page Content -->
+    <main>
+        <section class="vitrine" id="home">
+            <div>
+                <h1 class="text-title" data-use="vitrine.title">N/I</h1>
+                <p class="text-subtitle" data-use="vitrine.subtitle">N/I</p>
+                <a class="palette-0 button" href="#contact" data-use="action.schedule_consulation">N/I</a>
+            </div>
+        </section>
+        <div class="layout-column bg-medium">
+            <h1 data-use="services.title">N/I</h1>
+            <section class="layout-row container" id="services">
+                <div class="card container" data-use="services.family_law">
+                    <h2>N/I</h2>
+                    <ul>
+                    </ul>
+                </div>
+                <div class="card container" data-use="services.immigration_law">
+                    <h2>N/I</h2>
+                    <ul>
+                    </ul>
+                </div>
+                <div class="card container" data-use="services.criminal_law">
+                    <h2>N/I</h2>
+                    <ul>
+                    </ul>
+                </div>
+            </section>
+            <h1 data-use="about.title">N/I</h1>
+            <section class="layout-row container" id="about">
+                <div class="d-sx-4">
+                    <img class="imgfit" src="./assets/images/600x400.png" alt="">
+                </div>
+                <div class="d-sx-4" data-use="about">
+                    <h2>N/I</h2>
+                    <p>
+                        N/I
+                    </p>
+                </div>
+            </section>
+            <h1 style="display: none;">N/I</h1>
+            <section id="location" style="display: none;">
+                TO DO
+            </section>
+            <h1 data-use="contact.title">N/I</h1>
+            <section class="layout-row container" id="contact">
+                <div class="layout-col-2">
+                    <form id="contact-form" novalidate>
+                        <div>
+                            <label for="name" data-use="contact.full_name">N/I</label>
+                            <input class="b-w-full" type="text" name="name" required id="name">
+                            <div class="invalidity-flag" data-use="invalid.name">N/I</div>
+                        </div>
+                        <div>
+                            <label for="email" data-use="contact.email">N/I</label>
+                            <input class="b-w-full" type="text" name="email" required
+                                pattern="^[\x21-\x5A\x5E-\x7E]+@[\x21-\x5A\x5E-\x7E]+$" id="email">
+                            <div class="invalidity-flag" data-use="invalid.email">N/I</div>
+                        </div>
+                        <div>
+                            <label for="phone" data-use="contact.phone_number">N/I</label>
+                            <input class="b-w-full" type="tel" name="phone" pattern="^\([0-9]+\)\s[0-9]+-[0-9]+$"
+                                placeholder="(514) ...-...." id="phone">
+                            <div class="invalidity-flag" data-use="invalid.phone">N/I</div>
+                        </div>
+                        <div>
+                            <label for="service" data-use="contact.service_required">N/I</label>
+                            <select class="b-w-full" name="service" required>
+                                <option value="" disabled selected data-use="service_options.select">N/I</option>
+                                <option value="family-law" data-use="service_options.family_law">N/I</option>
+                                <option value="immigration" data-use="service_options.immigration">N/I</option>
+                                <option value="criminal-law" data-use="service_options.criminal_law">N/I</option>
+                                <option value="consultation" data-use="service_options.consultation">N/I</option>
+                            </select>
+                            <div class="invalidity-flag" data-use="invalid.service">N/I</div>
+                        </div>
+                        <div>
+                            <label for="message" data-use="contact.message">N/I</label>
+                            <textarea class="b-w-full" rows="5" minlength="10" name="message" required></textarea>
+                            <div class="invalidity-flag" data-use="invalid.message">N/I</div>
+                        </div>
+                        <button class="b-w-full" type="submit" style="margin: auto"
+                            data-use="action.send_message">N/I</button>
+                        <div class="result error" id="contact-form-error" data-use="failed.message_send">N/I</div>
+                        <div class="result success" id="contact-form-success" data-use="success.message_sent">N/I</div>
+                    </form>
+                </div>
+            </section>
+        </div>
+    </main>
+    <!-- Footer... obviously -->
+    <footer class="sitewide layout-column">
+        <main class="layout-row container">
+            <div class="layout-col-2">
+                <h3>Vanegas Guzman Inc.</h3>
+                <div class="b-w-full" id="social-links">
+                    <a href="https://www.facebook.com/people/Vanegas-Guzman-Inc/61556570083138/" target="_blank"
+                        rel="noopener noreferrer" aria-label="Visit our Facebook page"><span
+                            data-use="social.facebook">(Lien facebook)</span></a>
+                    <a href="https://www.linkedin.com/in/me-carlos-rutilio-vanegas-guzman-7b70321a7/" target="_blank"
+                        rel="noopener noreferrer" aria-label="Visit our LinkedIn page"><span
+                            data-use="social.linkedin">(Lien facebook)</span></a>
+                </div>
+                <div>
+                    <p class="mb-0">Rutilio Vanegas Guzman</p>
+                    <p class="mt-0" data-use="social.founder">N/I</p>
+                    <p class="mb-0" data-use="social.general">N/I</p>
+                    <p class="mt-0">info@vanegasguzmaninc.com</p>
+                    <!-- TODO: Add translation -->
+                    <p class="mb-0">Joignez notre collaborateur:</p>
+                    <a href="https://www.facebook.com/share/1E4oJdHh1h/?mibextid=wwXIfr" target="_blank"
+                        rel="noopener noreferrer" aria-label="TODO"><span
+                            data-use="social.collaborator">Me William Aguilar</span></a>
+                </div>
+            </div>
+            <div class="layout-col-4">
+                <h3>Bureau Vieux-Montréal</h3>
+                <p class="mb-0">442, rue Saint-Gabriel</p>
+                <p class="mt-0">Montréal, QC H2Y 2Z9</p>
+            </div>
+            <div class="layout-col-4">
+                <h3>Bureau Pointe-Claire</h3>
+                <p class="mb-0">6500, Chemin de Service S</p>
+                <p class="my-0">4ème Étage</p>
+                <p class="mt-0">Pointe-Claire, QC H9R 0A5</p>
+            </div>
+        </main>
+        <div class="container">
+            <p>&copy; 2025 Vanegas Guzman Inc.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
