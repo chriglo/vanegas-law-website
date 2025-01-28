@@ -188,14 +188,23 @@ textarea[touched]:invalid + .invalidity-flag,
     }
 }
 
-/* Desktop: WQXGA/WQHD */
-@media screen and (min-width: 2560px) {
+/* FIXME: Actually use the screen size. */
+/* Desktop: WXGA */
+@media screen and (min-width: 1280px) {
     html {
-        font-size: 24px;
+        font-size: 20px;
     }
     .layout-column > * {
-        min-width: 0;
-        max-width: 1600px;
+        max-width: 1280px;
+    }
+}
+/* Desktop: WUXGA */
+@media screen and (min-width: 1920px) {
+    html {
+        font-size: 28px;
+    }
+    .layout-column > * {
+        max-width: 1920px;
     }
 }
 
