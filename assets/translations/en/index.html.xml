@@ -24,7 +24,7 @@
         </ul>
     </mapping>
     <mapping for="services.criminal_law">
-        <h2>Droit criminel</h2>
+        <h2>Criminal Law</h2>
         <ul>
             <li>Strategic case preparation and evidence gathering</li>
             <li>Court representation and plea negotiations</li>
@@ -47,7 +47,6 @@
     <mapping for="contact.phone_number">Phone Number</mapping>
     <mapping for="contact.service_required">Service Required</mapping>
     <mapping for="contact.message">Your Message</mapping>
-    <mapping for="contact.service_options"><!-- TODO --></mapping>
     <mapping for="action.send_message">Send Message</mapping>
     <mapping for="action.schedule_consulation">Schedule Consulation</mapping>
     <mapping for="form.field_required">This field is required</mapping>
@@ -58,6 +57,11 @@
     <mapping for="social.linkedin">Visit our Linked In page</mapping>
     <mapping for="social.founder">Founder</mapping>
     <mapping for="social.general">General Inquiries</mapping>
+    <mapping for="service_options.select">Select a service...</mapping>
+    <mapping for="service_options.family_law">Family Law</mapping>
+    <mapping for="service_options.immigration">Immigration</mapping>
+    <mapping for="service_options.criminal_law">Criminal Law</mapping>
+    <mapping for="service_options.consultation">Consultation</mapping>
     <mapping for="invalid.name">This field is required.</mapping>
     <mapping for="invalid.email">This field is required; please enter a valid email address (e.g. "example@example.org").</mapping>
     <mapping for="invalid.phone">Please enter a valid phone number.</mapping>
