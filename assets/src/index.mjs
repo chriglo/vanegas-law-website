@@ -43,6 +43,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 	form.addEventListener("submit", async function (event) {
 		event.preventDefault();
 
+		// This is very lazy...
 		if (!form.checkValidity()) {
 			console.error("Attempt to submit an invalid form");
 			return;

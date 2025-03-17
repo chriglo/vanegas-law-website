@@ -8,7 +8,7 @@
     <mapping for="vitrine.subtitle">Apoyando tu camino hacia adelante, un paso legal a la vez</mapping>
     <mapping for="services.title">Nuestra Experiencia</mapping>
     <mapping for="services.family_law">
-        <h2>Derecho Familiar</h2>
+        <h2><img src="./assets/icons/family.svg" alt="" class="icon mr-6"/>Derecho Familiar</h2>
         <ul>
             <li>Procedimientos de divorcio y separación legal con apoyo compasivo</li>
             <li>Negociación de la custodia de los hijos, la pensión alimenticia y los acuerdos parentales</li>
@@ -16,7 +16,7 @@
         </ul>
     </mapping>
     <mapping for="services.immigration_law">
-        <h2>Inmigración</h2>
+        <h2><img src="./assets/icons/passport.svg" alt="" class="icon mr-6"/>Inmigración</h2>
         <ul>
             <li>Representación de la solicitud de asilo</li>
             <li>Representación ante la División de Recursos de los Refugiados</li>
@@ -24,7 +24,7 @@
         </ul>
     </mapping>
     <mapping for="services.criminal_law">
-        <h2>Derecho Penal</h2>
+        <h2><img src="./assets/icons/balance.svg" alt="" class="icon mr-6"/>Derecho Penal</h2>
         <ul>
             <li>Preparación estratégica y recopilación de pruebas</li>
             <li>Representación ante los tribunales y negociación de los cargos</li>

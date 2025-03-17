@@ -8,15 +8,15 @@
     <mapping for="vitrine.subtitle">Supporting your path forward, one legal step at a time</mapping>
     <mapping for="services.title">Our Expertise</mapping>
     <mapping for="services.family_law">
-        <h2>Family Law</h2>
+        <h2><img src="./assets/icons/family.svg" alt="Family law icon" class="icon mr-6"/>Family Law</h2>
         <ul>
             <li>Divorce and legal separation proceedings with compassionate guidance</li>
             <li>Child custody, support, and parenting arrangement negotiations</li>
-            <li>Post-judgment modifications and enforcemen</li>
+            <li>Post-judgment modifications and enforcement</li>
         </ul>
     </mapping>
     <mapping for="services.immigration_law">
-        <h2>Immigration</h2>
+        <h2><img src="./assets/icons/passport.svg" alt="Immigration law icon (passport)" class="icon mr-6"/>Immigration</h2>
         <ul>
             <li>Asylum Claim Representation</li>
             <li>Refugee Appeals Division representation</li>
@@ -24,7 +24,7 @@
         </ul>
     </mapping>
     <mapping for="services.criminal_law">
-        <h2>Criminal Law</h2>
+        <h2><img src="./assets/icons/balance.svg" alt="Criminal law icon (passport)" class="icon mr-6"/>Criminal Law</h2>
         <ul>
             <li>Strategic case preparation and evidence gathering</li>
             <li>Court representation and plea negotiations</li>
