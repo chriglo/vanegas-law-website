@@ -2,6 +2,12 @@ import { iterof } from "./utility.mjs";
 
 const TRANSLATIONS_ROOT = import.meta.url.split("/").slice(0, -2).join("/") + "/translations";
 
+// NOTE 2026-06-17:
+// This is likely terrible and should be replaced, this feels like bandaid rather than permanent implementation.
+// Also maybe run this through Babel...?
+// --
+// Anyway, hi...?
+
 /**
  * A flyweight class for fetching and applying translations,
  * onto the loaded page.

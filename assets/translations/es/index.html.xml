@@ -68,4 +68,10 @@
     <mapping for="invalid.message">Por favor ingrese un mensaje.</mapping>
     <mapping for="success.message_sent">El mensaje fue enviado.</mapping>
     <mapping for="failed.message_send">No se ha podido enviar el mensaje.</mapping>
+    <mapping for="social.contact_collab">Contactar nuestro colaborador:</mapping>
+    <mapping for="office.1">Oficina Vieux-Montréal</mapping>
+    <mapping for="office.2">Oficina Pointe-Claire</mapping>
+    <mapping for="business.header">Horas de trabajo</mapping>
+    <mapping for="business.hours">10:00 a 17:00</mapping>
+    <mapping for="business.days">Lunes a jueves</mapping>
 </mappings>
